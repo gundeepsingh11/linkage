@@ -1,0 +1,14 @@
+var express = require('express')
+var path = require('path')
+
+var app = express();
+
+app.use(express.static(__dirname + '/'));
+
+
+
+app.get('/*',function(req,res){
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+app.listen(9099,function(){ console.log("server listening on 9099")});
