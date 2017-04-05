@@ -14873,3 +14873,14 @@ md-tooltip {
 @media print {
   .hide-print:not(.show-print):not(.show) {
     display: none !important; } }
+.section4 {
+  width: 100%;
+  height: 100%; }
+  .section4 .backImg {
+    background-image: url("imgs/banner_image.jpg");
+    min-height: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
