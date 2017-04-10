@@ -20,7 +20,20 @@
       </div>
     </div>
   </div>
-  
+  <div class="mainSlider">
+    <div class="gallery1 js-flickity home-banner" data-flickity='{"autoPlay":true, "wrapAround": true}'>
+    <div class="gallery-cell1">
+      <img src="app/imgs/_banner.jpg" />
+ 
+    </div>
+    <div class="gallery-cell1">
+      <img src="app/imgs/_banner.jpg" class="bnr-img2" />
+ 
+      </div>
+    <div class="gallery-cell1">
+      <img src="app/imgs/_banner.jpg" /> </div>
+  </div>
+  </div>
   <!-- 
   <div class="top-img1">
     <img src="app/imgs/banner.jpg"> </div> -->
@@ -44,8 +57,8 @@
         <div class="content2">
           <h5 class="head2"> Why FinEdu?</h5>
           <p class="para2">FinEdu Consultancy is a team of highely jzksxjx csjojdso sosijdijs sojsoid oisdjsjdi jasisdisid sdshdidsh sjshhxshi jshisdisd isosidsddhd sdoisdid ssiodsahsdoisoi sixisdhsb ssihsuds iudhisdhsbx sihsids xsdwsw iajsiaj ansis dwiidd wjsdwwi iwdd jojrr sdgtrs
-            <br> eojeeow kwjdwdjkjkih wowoekemddw wokpe wdiwjd ksdk ncjzx lsmkkjeds kdsnns sc,dskjdsi skjsjd skjsdjwjdei wwswdk kjfjfkf dlkdjjskdskdhd wdeirrefireio sdjeoiefnfd m wioeiref fdeif eiohfei fejfei eifjf ff ikfnekkf ffkeefijudnfci <br>
-            FinEdu Consultancy is a team of highely jzksxjx csjojdso sosijdijs sojsoid oisdjsjdi jasisdisid sdshdidsh sjshhxshi jshisdisd isosidsddhd sdoisdid ssiodsahsdoisoi sixisdhsb ssihsuds iudhisdhsbx sihsids xsdwsw iajsiaj ansis dwiidd wjsdwwi iwdd jojrr sdgtrs
+            <br> eojeeow kwjdwdjkjkih wowoekemddw wokpe wdiwjd ksdk ncjzx lsmkkjeds kdsnns sc,dskjdsi skjsjd skjsdjwjdei wwswdk kjfjfkf dlkdjjskdskdhd wdeirrefireio sdjeoiefnfd m wioeiref fdeif eiohfei fejfei eifjf ff ikfnekkf ffkeefijudnfci
+            <br> FinEdu Consultancy is a team of highely jzksxjx csjojdso sosijdijs sojsoid oisdjsjdi jasisdisid sdshdidsh sjshhxshi jshisdisd isosidsddhd sdoisdid ssiodsahsdoisoi sixisdhsb ssihsuds iudhisdhsbx sihsids xsdwsw iajsiaj ansis dwiidd wjsdwwi iwdd jojrr sdgtrs
             <br> eojeeow kwjdwdjkjkih wowoekemddw wokpe wdiwjd ksdk ncjzx lsmkkjeds kdsnns sc,dskjdsi skjsjd skjsdjwjdei wwswdk kjfjfkf dlkdjjskdskdhd wdeirrefireio sdjeoiefnfd m wioeiref fdeif eiohfei fejfei eifjf ff ikfnekkf ffkeefijudnfci</p>
         </div>
       </li>
@@ -66,8 +79,8 @@
           <h5 class="head3">FinEdu at B-Schools</h5>
           <p class="para1">FinEdu Consultancy is a team of highely jzksxjx csjojdso sosijdijs sojsoid oisdjsjdi jasisdisid sdshdidsh sjshhxshi jshisdisd isosidsddhd sdoisdid ssiodsahsdoisoi sixisdhsb ssihsuds iudhisdhsbx sihsids xshdjdd dddnidw dwiidd wjsdw iwdd joj9rr eojeeow kwjdwdjkjkih wowoekemddw wokpe wdiwjd ksdk ncjzx lsmkkjeds kdsnns sc,dskjdsi skjsjd skjsdjwjdei wwswdk ksdlsdsd sief err rfderdiwre fweriwere egjeffjwoejwfe efweeie wejrbewirfr oewrdheirne ernirie ef efnweif efweoinweoifneifnrif efinewonfoiwefnw wihri3h4g for efirne fefiwngrkelfnrf kreiwrefr fwerkfwef fvwrofjrfr fgh renfrifnir rwfrweirf
             <br> wdsjed sdkfifwn wekirewff ewfjwjefoije wkfnwifwei dffcwifnifif fwiofni bvrfr gi eiwfnreiwf wsiriow dwfnwgnif wefbnbwiobrgv girnfirfwife gr rifir rifnreibf wirnfirr irnirv vrine reinreiirnef werinoowefrf riwngb winergrf wrefir irewjgbjkfal fgbiwrfg woifwrg woiirw foirf</p>
-          <div class="dialog-demo-content" layout="row" layout-wrap layout-margin layout-align="center">
-            <md-button class="md-primary md-raised" ng-click="showAlert($event)"> Alert Dialog </md-button>
+          <div class="dialog-demo-content" layout="row" layout-wrap layout-margin layout-align="start">
+            <md-button class="md-primary md-raised courseButton" ng-click="showAlert($event)"> Training Courses </md-button>
           </div>
         </div>
       </li>

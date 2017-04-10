@@ -14986,96 +14986,79 @@ table {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white; }
-
-.gallery-container {
-  height: 400px; }
-
-.gallery {
-  margin-top: 10%;
-  height: 300px; }
-
-.gallery-cell {
-  width: 100%;
-  height: 300px;
-  margin-right: 10px;
-  text-align: center;
-  /*padding: 0 150px;*/ }
-
-/* cell number */
-.gallery-cell:before {
-  display: block;
-  line-height: 200px;
-  font-size: 80px;
-  color: white; }
-
-/* --- gallery-nav --- */
-.gallery-nav {
-  position: relative;
-  bottom: 100px;
-  list-style: none;
-  padding: 0;
-  width: 100%;
-  text-align: center;
-  margin: 0; }
-
-.gallery-nav .is-slected {
-  width: 50px;
-  height: 50px; }
-
-.gallery-nav li {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  padding-right: 12px;
-  cursor: pointer; }
-
-.gallery-cell-txt {
-  line-height: 1.8;
-  margin-top: 2%;
-  padding: 0 100px; }
-  .gallery-cell-txt .testimonialName {
-    margin-top: 3%; }
-    .gallery-cell-txt .testimonialName h3 {
-      font-weight: bolder; }
-
-.selectedImg {
-  width: 60px;
-  height: 60px; }
-
-.gallery-nav a {
-  width: 30px;
-  height: 30px;
-  font-size: 50px; }
-
-.flickity-page-dots .dot.is-selected {
-  /*width: 50px;
+  color: white;
+  /* --- gallery-nav --- */ }
+  .section6 .gallery-container {
+    height: 400px; }
+    .section6 .gallery-container .gallery {
+      margin-top: 10%;
+      height: 300px;
+      /* cell number */ }
+      .section6 .gallery-container .gallery .gallery-cell {
+        width: 100%;
+        height: 300px;
+        margin-right: 10px;
+        text-align: center;
+        /*padding: 0 150px;*/ }
+        .section6 .gallery-container .gallery .gallery-cell .gallery-cell-txt {
+          line-height: 1.8;
+          margin-top: 2%;
+          padding: 0 100px; }
+          .section6 .gallery-container .gallery .gallery-cell .gallery-cell-txt .testimonialName {
+            margin-top: 3%; }
+            .section6 .gallery-container .gallery .gallery-cell .gallery-cell-txt .testimonialName h3 {
+              font-weight: bolder; }
+      .section6 .gallery-container .gallery .gallery-cell:before {
+        display: block;
+        line-height: 200px;
+        font-size: 80px;
+        color: white; }
+  .section6 .gallery-nav {
+    position: relative;
+    bottom: 100px;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0; }
+  .section6 .gallery-nav .is-slected {
+    width: 50px;
+    height: 50px; }
+  .section6 .gallery-nav li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding-right: 12px;
+    cursor: pointer; }
+  .section6 .selectedImg {
+    width: 60px;
+    height: 60px; }
+  .section6 .gallery-nav a {
+    width: 30px;
+    height: 30px;
+    font-size: 50px; }
+  .section6 .flickity-page-dots .dot.is-selected {
+    /*width: 50px;
   height: 50px;*/
-  -webkit-transition: .3s;
-  transition: .3s; }
-
-.flickity-page-dots {
-  display: none; }
-
-.flickity-prev-next-button {
-  top: 113%;
-  z-index: 1;
-  background: transparent; }
-
-.flickity-prev-next-button .arrow {
-  fill: #f9f2f2;
-  display: none; }
-
-.flickity-prev-next-button.previous {
-  left: 33%; }
-
-.flickity-prev-next-button.next {
-  right: 33%; }
-
-.navCircle {
-  height: 50px;
-  width: 50px;
-  background-image: url("http://lorempixel.com/30/30/"); }
+    -webkit-transition: .3s;
+    transition: .3s; }
+  .section6 .flickity-page-dots {
+    display: none; }
+  .section6 .flickity-prev-next-button {
+    top: 113%;
+    z-index: 1;
+    background: transparent; }
+  .section6 .flickity-prev-next-button .arrow {
+    fill: #f9f2f2;
+    display: none; }
+  .section6 .flickity-prev-next-button.previous {
+    left: 33%; }
+  .section6 .flickity-prev-next-button.next {
+    right: 33%; }
+  .section6 .navCircle {
+    height: 50px;
+    width: 50px;
+    background-image: url("http://lorempixel.com/30/30/"); }
 
 .section7 {
   padding-top: 10%; }
@@ -15289,9 +15272,10 @@ table {
         .footer .footerContent .footer3 .group .input-field:focus ~ .label-name, .footer .footerContent .footer3 .group .input-field:valid ~ .label-name {
           top: -20px; }
       .footer .footerContent .footer3 button {
-        background-image: url("imgs/send_icon.png");
+        background-image: url("imgs/send.png");
         background-repeat: no-repeat;
         background-position: center;
+        background-size: 30px 30px;
         width: 25%;
         height: 42px;
         border: 0;
@@ -15513,40 +15497,34 @@ table {
         font-size: 14.5px;
         color: #676767;
         line-height: 1.5; }
+      .section3 .flex-container3 .flex-item .courseButton {
+        background-color: transparent;
+        border: 1px solid #00E0D0;
+        color: #00E0D0;
+        box-shadow: none;
+        text-transform: capitalize;
+        padding: 0 15px 0 15px; }
+      .section3 .flex-container3 .flex-item .courseButton:hover {
+        background-color: #00E0D0;
+        border: 1px solid white;
+        color: white; }
 
-/*.courses-button{
-background-color:white ;
-border:1PX solid;
-padding: 7px 15px 7px 15px;
-text-align: center;
-font-family: Roboto;
-font-size: 15px;
-color: #00E0D0;
-margin-top: 10px;
-}
-.courses-button:hover{
-  background-color: #00E0D0;
-    color: white;
-    cursor: pointer;
-    transition: 0.5s;
-}*/
-.dialogdemoBasicUsage #popupContainer {
-  position: relative; }
+/*override Angular material css*/
+md-dialog {
+  opacity: 1 !important;
+  padding: 15px 15px 30px 30px; }
 
-.dialogdemoBasicUsage .footer {
+.mainSlider {
+  height: 670px;
   width: 100%;
-  text-align: center;
-  margin-left: 20px; }
-
-.dialogdemoBasicUsage .footer, .dialogdemoBasicUsage .footer > code {
-  font-size: 0.8em;
-  margin-top: 50px; }
-
-.dialogdemoBasicUsage button {
-  width: 200px; }
-
-.dialogdemoBasicUsage div#status {
-  color: #c60008; }
-
-.dialogdemoBasicUsage .dialog-demo-prerendered md-checkbox {
-  margin-bottom: 0; }
+  /* big buttons, no circle */ }
+  .mainSlider .gallery1 {
+    background: #EEE;
+    height: 100%; }
+  .mainSlider .gallery-cell1 {
+    width: 100%;
+    height: 670px; }
+  .mainSlider .flickity-page-dots {
+    display: none; }
+  .mainSlider .flickity-prev-next-button {
+    display: none; }

@@ -1,42 +1,65 @@
-angular.module( 'home', [ 'main' ] ).config( function( $stateProvider ) {
-  $stateProvider.state( 'home', {
-    url: '/home',
-    templateUrl: 'app/js/home/home.tpl',
-    controller: 'HomeCtrl'
-  } );
-} ).controller( 'HomeCtrl', function( $scope, $window ) {
+angular.module( 'home', [ 'ngMaterial' ] ).config( function( $stateProvider ) {
+$stateProvider.state( 'home', {
+  url: '/home',
+  templateUrl: 'app/js/home/home.tpl',
+  controller: 'HomeCtrl'
+} );
+} ).controller( 'HomeCtrl', function( $scope, $window, $mdDialog ) {
   var elem = document.querySelector( '.gallery' );
   var flkty = new Flickity( elem, {
     // options
     cellAlign: 'left',
     contain: true
   } );
-  var nav = document.querySelector( '.gallery-nav' );
-  // get array of items with li tag
-  var items = Array.prototype.slice.call( nav.children );
-  $scope.homectrl = {
-    selectedLi: 'li3',
-    index: 0,
-    slides: null,
-    flkty : flkty
+  $scope.status = '  ';
+  $scope.customFullscreen = false;
+  $scope.items = [ "NISM Series-I: Currency Derivatives Certification Examination(English)",
+    "NISM-Series-V-A: Mutual Fund Distributors Certification Examination (English)",
+    "NISM-Series-VII: Securities Operations and Risk Management Certification Examination (English)",
+    "NISM-Series-VIII: Equity Derivatives Certification Examination (English)",
+    "NISM-Series-VI: Depository Operations Certification Examination (English)",
+    "NISM-Series-XII: Securities Markets Foundation Certification Examination (English)", "IRDA Examination"
+  ];
+  $scope.showAlert = function( ev ) {
+    $mdDialog.show( {
+      templateUrl: 'app/js/utils/tmpl.tpl',
+      parent: angular.element( document.body ),
+      targetEvent: ev,
+      clickOutsideToClose: true,
+      fullscreen: $scope.customFullscreen // Only for -xs, -sm breakpoints.
+    } ).then( function( answer ) {
+      $scope.status = 'You said the information was "' + answer + '".';
+    }, function() {
+      $scope.status = 'You cancelled the dialog.';
+    } );
   };
-  console.log( "homectrl" );
-  $scope.homectrl.slides = items;
-  $scope.getClick = getClick;
-  // $scope.testimonialSelected = testimonialSelected;
-  // var galleryElem = document.getElementsByClassName( 'gallery' );
-  // var flkty = new Flickity( galleryElem );
-  function getClick( slide ) {
-  	// console.log(flkty.selectedIndex);
-  	var liElement = document.getElementById( slide );
-    var index = items.indexOf( liElement );
-    $scope.homectrl.selectedLi = slide;
-    flkty.select( index );
-  }
-  // function testimonialSelected( selected ) {
-  //   console.log( 'img', selected );
-  //   var imgSlected = document.getElementById( selected );
-  //   imgSlected.className += "selectedImg";
-  //   // document.getElementById( selected ).style.width = "60";
-  // }
+  var flkty1 = new Flickity( '.gallery1', {
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+var nav = document.querySelector( '.gallery-nav' );
+// get array of items with li tag
+var items = Array.prototype.slice.call( nav.children ); $scope.homectrl = {
+  selectedLi: 'li3',
+  index: 0,
+  slides: null,
+  flkty: flkty
+}; console.log( "homectrl" ); $scope.homectrl.slides = items; $scope.getClick = getClick;
+// $scope.testimonialSelected = testimonialSelected;
+// var galleryElem = document.getElementsByClassName( 'gallery' );
+// var flkty = new Flickity( galleryElem );
+function getClick( slide ) {
+  // console.log(flkty.selectedIndex);
+  var liElement = document.getElementById( slide );
+  var index = items.indexOf( liElement );
+  $scope.homectrl.selectedLi = slide;
+  flkty.select( index );
+}
+// function testimonialSelected( selected ) {
+//   console.log( 'img', selected );
+//   var imgSlected = document.getElementById( selected );
+//   imgSlected.className += "selectedImg";
+//   // document.getElementById( selected ).style.width = "60";
+// }
 } );
