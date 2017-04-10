@@ -26,7 +26,8 @@ $stateProvider.state( 'home', {
   // options
   cellAlign: 'left',
   contain: true,
-  autoPlay: true
+  autoPlay: 2000,
+  pauseAutoPlayOnHover: false
 });
 var nav = document.querySelector( '.gallery-nav' );
 // get array of items with li tag

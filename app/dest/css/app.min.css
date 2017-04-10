@@ -15020,7 +15020,8 @@ table {
     padding: 0;
     width: 100%;
     text-align: center;
-    margin: 0; }
+    margin: 0;
+    z-index: 10; }
   .section6 .gallery-nav .is-slected {
     width: 50px;
     height: 50px; }
@@ -15207,8 +15208,8 @@ table {
 
 .footer {
   background-image: url("imgs/banner_image2.jpg");
-  min-height: 435px;
-  height: 435px;
+  min-height: 440px;
+  height: 440px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -15223,10 +15224,10 @@ table {
     -ms-flex-pack: center;
     justify-content: center;
     color: white;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Roboto', sans-serif;
+    margin-top: 11%; }
     .footer .footerContent ul {
       list-style: none;
-      margin-top: 30%;
       line-height: 2; }
       .footer .footerContent ul p {
         font-size: 14px;
@@ -15235,12 +15236,12 @@ table {
       width: 30%;
       line-height: 1.5; }
     .footer .footerContent .footer2 {
-      width: 26%; }
-      .footer .footerContent .footer2 ul {
-        margin-top: 40%; }
+      width: 26%;
+      margin-top: 1%; }
       .footer .footerContent .footer2 h2 {
         font-weight: bolder;
-        font-size: 16px; }
+        font-size: 16px;
+        margin-top: 2%; }
       .footer .footerContent .footer2 li p {
         padding-left: 11%; }
       .footer .footerContent .footer2 img {
@@ -15254,9 +15255,8 @@ table {
       .footer .footerContent .footer2 .topPad {
         padding-top: 7%; }
     .footer .footerContent .footer3 {
-      width: 25%; }
-      .footer .footerContent .footer3 ul {
-        margin-top: 40%; }
+      width: 25%;
+      margin-top: 1.5%; }
       .footer .footerContent .footer3 .group {
         margin-bottom: 0;
         margin-top: 10%;

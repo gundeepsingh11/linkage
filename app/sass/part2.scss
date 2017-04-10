@@ -169,6 +169,7 @@ table {
     width: 100%;
     text-align: center;
     margin: 0;
+    z-index: 10;
   }
   .gallery-nav .is-slected {
     width: 50px;
@@ -422,8 +423,8 @@ table {
 
 .footer {
   background-image: url('imgs/banner_image2.jpg');
-  min-height: 435px;
-  height: 435px;
+  min-height: 440px;
+  height: 440px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -435,9 +436,9 @@ table {
     justify-content: center;
     color: white;
     font-family: 'Roboto', sans-serif;
+    margin-top: 11%;
     ul {
       list-style: none;
-      margin-top: 30%;
       line-height: 2;
       p {
         font-size: 14px;
@@ -450,12 +451,11 @@ table {
     }
     .footer2 {
       width: 26%;
-      ul {
-        margin-top: 40%;
-      }
+      margin-top: 1%;
       h2 {
         font-weight: bolder;
         font-size: 16px;
+        margin-top: 2%;
       }
       li {
         p {
@@ -478,9 +478,7 @@ table {
     }
     .footer3 {
       width: 25%;
-      ul {
-        margin-top: 40%;
-      }
+      margin-top: 1.5%;
       .group {
         margin-bottom: 0;
         margin-top: 10%;
