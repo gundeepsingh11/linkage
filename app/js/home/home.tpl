@@ -6,21 +6,21 @@
     <div class="contact-container">
       <div id="FinEdu" class="tele-logo">
         <img src="app/imgs/logo.png" /> </div>
-      <div class="nav">
+      <div class="nav" >
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">WHO WE ARE</a></li>
-          <li><a href="#">WHY FINEDU?</a></li>
-          <li><a href="#">B-SCHOOL</a></li>
-          <li><a href="#">TEAM</a></li>
-          <li><a href="#">PRODUCT</a></li>
-          <li><a href="#">PEOPLE SAY</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a du-smooth-scroll="top" offset="100" du-scrollspy>HOME</a></li>
+          <li><a du-smooth-scroll="who-we-are" offset="100" du-scrollspyhref="#">WHO WE ARE</a></li>
+          <li><a du-smooth-scroll="why-finedu" offset="100" du-scrollspyhref="#">WHY FINEDU?</a></li>
+          <li><a du-smooth-scroll="b-school" offset="100" du-scrollspyhref="#">B-SCHOOL</a></li>
+          <li><a du-smooth-scroll="team" offset="100" du-scrollspyhref="#">TEAM</a></li>
+          <li><a du-smooth-scroll="product" offset="100" du-scrollspyhref="#">PRODUCT</a></li>
+          <li><a du-smooth-scroll="people-say" offset="100" du-scrollspyhref="#">PEOPLE SAY</a></li>
+          <li><a du-smooth-scroll="contact" offset="100" du-scrollspyhref="#">CONTACT</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="mainSlider">
+  <div class="mainSlider" id="top">
     <div class="gallery1 js-flickity home-banner" data-flickity='{"autoPlay":true, "wrapAround": true}'>
     <div class="gallery-cell1">
       <img src="app/imgs/_banner.jpg" />
@@ -37,7 +37,7 @@
   <!-- 
   <div class="top-img1">
     <img src="app/imgs/banner.jpg"> </div> -->
-  <div>
+  <div id="who-we-are">
     <ul class="flex-container1">
       <li class="flex-item1">
         <div class="ind-img">
@@ -51,7 +51,7 @@
       </li>
     </ul>
   </div>
-  <div class="section2">
+  <div class="section2" id="why-finedu">
     <ul class="flex-container2">
       <li class="flex-item2">
         <div class="content2">
@@ -68,7 +68,7 @@
       </li>
     </ul>
   </div>
-  <div class="section3">
+  <div class="section3" id="b-school">
     <ul class="flex-container3">
       <li class="flex-item3">
         <div class="third-img">
@@ -87,7 +87,7 @@
     </ul>
   </div>
 </div>
-<div class="section4">
+<div class="section4" id="team">
   <div class="backImg">
     <h2>MEET OUR AMAZING TEAM</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et urna non mi ultricies maximus.</p>
@@ -110,11 +110,11 @@
     </div>
   </div>
 </div>
-<div class="section5">
+<div class="section5" id="product">
   <div class="wordConatainer"></div>
 </div>
 <div class="clear"></div>
-<div class="section6">
+<div class="section6" id="people-say">
   <div class="gallery-container">
     <div class="gallery js-flickity testimonial" data-flickity-options='{ "contain": true }'>
       <div class="gallery-cell"> <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -183,7 +183,7 @@
   </ol>
   <!-- {{homectrl.flkty.selectedIndex}} -->
 </div>
-<div class="section7">
+<div class="section7" id="contact">
   <form class="form-main" name="contactus">
     <h2>GIVE US A GOOD NEWS</h2>
     <div class="group">

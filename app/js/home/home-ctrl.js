@@ -13,13 +13,6 @@ $stateProvider.state( 'home', {
   } );
   $scope.status = '  ';
   $scope.customFullscreen = false;
-  $scope.items = [ "NISM Series-I: Currency Derivatives Certification Examination(English)",
-    "NISM-Series-V-A: Mutual Fund Distributors Certification Examination (English)",
-    "NISM-Series-VII: Securities Operations and Risk Management Certification Examination (English)",
-    "NISM-Series-VIII: Equity Derivatives Certification Examination (English)",
-    "NISM-Series-VI: Depository Operations Certification Examination (English)",
-    "NISM-Series-XII: Securities Markets Foundation Certification Examination (English)", "IRDA Examination"
-  ];
   $scope.showAlert = function( ev ) {
     $mdDialog.show( {
       templateUrl: 'app/js/utils/tmpl.tpl',
@@ -27,16 +20,13 @@ $stateProvider.state( 'home', {
       targetEvent: ev,
       clickOutsideToClose: true,
       fullscreen: $scope.customFullscreen // Only for -xs, -sm breakpoints.
-    } ).then( function( answer ) {
-      $scope.status = 'You said the information was "' + answer + '".';
-    }, function() {
-      $scope.status = 'You cancelled the dialog.';
     } );
   };
   var flkty1 = new Flickity( '.gallery1', {
   // options
   cellAlign: 'left',
-  contain: true
+  contain: true,
+  autoPlay: true
 });
 var nav = document.querySelector( '.gallery-nav' );
 // get array of items with li tag
@@ -62,4 +52,19 @@ function getClick( slide ) {
 //   imgSlected.className += "selectedImg";
 //   // document.getElementById( selected ).style.width = "60";
 // }
+
+window.onscroll = function() {
+    myFunction();
+  };
+  
+  function myFunction() {
+    if ( document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 ) {
+      document.getElementById( "home" ).className = "fixed-header";
+    } else {
+      document.getElementById( "home" ).className = "top-header";
+    }
+
+  }
+
+
 } );

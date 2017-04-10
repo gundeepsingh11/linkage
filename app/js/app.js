@@ -1,4 +1,4 @@
-angular.module( 'app', ['ui.router','ngMaterial', 'ngAnimate', 'ngAria', 'home', 'main', 'part2'] )
+angular.module( 'app', ['ui.router','ngMaterial', 'ngAnimate', 'ngAria', 'home', 'main', 'duScroll'] )
 .config(function($urlRouterProvider,$locationProvider){
  $urlRouterProvider.otherwise('home');
   $locationProvider.html5Mode(true);
