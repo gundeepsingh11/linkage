@@ -6,7 +6,7 @@
     <div class="contact-container">
       <div id="FinEdu" class="tele-logo">
         <img src="app/imgs/logo.png" /> </div>
-      <div class="nav" >
+      <div class="nav">
         <ul>
           <li><a du-smooth-scroll="top" offset="100" du-scrollspy>HOME</a></li>
           <li><a du-smooth-scroll="who-we-are" offset="100" du-scrollspyhref="#">WHO WE ARE</a></li>
@@ -22,17 +22,13 @@
   </div>
   <div class="mainSlider" id="top">
     <div class="gallery1 js-flickity home-banner" data-flickity='{"autoPlay":true, "wrapAround": true}'>
-    <div class="gallery-cell1">
-      <img src="app/imgs/_banner.jpg" />
- 
+      <div class="gallery-cell1">
+        <img src="app/imgs/_banner.jpg" /> </div>
+      <div class="gallery-cell1">
+        <img src="app/imgs/_banner.jpg" class="bnr-img2" /> </div>
+      <div class="gallery-cell1">
+        <img src="app/imgs/_banner.jpg" /> </div>
     </div>
-    <div class="gallery-cell1">
-      <img src="app/imgs/_banner.jpg" class="bnr-img2" />
- 
-      </div>
-    <div class="gallery-cell1">
-      <img src="app/imgs/_banner.jpg" /> </div>
-  </div>
   </div>
   <!-- 
   <div class="top-img1">
@@ -46,7 +42,7 @@
       <li class="flex-item1">
         <div class="content">
           <h5 class="head">Who We Are</h5>
-          <p class="para1">FinEdu Consultancy is a team of highely jzksxjx csjojdso sosijdijs sojsoid oisdjsjdi jasisdisid sdshdidsh sjshhxshi jshisdisd isosidsddhd sdoisdid ssiodsahsdoisoi sixisdhsb ssihsuds iudhisdhsbx sihsids xshdjdd dddnidw dwiidd wjsdwwi iwdd joj9rr eojeeow kwjdwdjkjkih wowoekemddw wokpe wdiwjd ksdk ncjzx lsmkkjeds kdsnns sc,dskjdsi skjsjd skjsdjwjdei wwswdk </p>
+          <p class="para1">FinEdu Consultancy is a team of highly enthusiastic and efficient professionals, headed by Mr. Vipul Kaushikk who is dedicated to spread Financial Awareness across country.  He believes that if our county has to grow Rich, the youth must understand the importance of money and its use. We understand the financial and business needs and by virtue of around 40 yrs of our man experience, we are able to form a special headhunting team working 24x7 only with a clear motive of motivating people financially. </p>
         </div>
       </li>
     </ul>
@@ -56,10 +52,11 @@
       <li class="flex-item2">
         <div class="content2">
           <h5 class="head2"> Why FinEdu?</h5>
-          <p class="para2">FinEdu Consultancy is a team of highely jzksxjx csjojdso sosijdijs sojsoid oisdjsjdi jasisdisid sdshdidsh sjshhxshi jshisdisd isosidsddhd sdoisdid ssiodsahsdoisoi sixisdhsb ssihsuds iudhisdhsbx sihsids xsdwsw iajsiaj ansis dwiidd wjsdwwi iwdd jojrr sdgtrs
-            <br> eojeeow kwjdwdjkjkih wowoekemddw wokpe wdiwjd ksdk ncjzx lsmkkjeds kdsnns sc,dskjdsi skjsjd skjsdjwjdei wwswdk kjfjfkf dlkdjjskdskdhd wdeirrefireio sdjeoiefnfd m wioeiref fdeif eiohfei fejfei eifjf ff ikfnekkf ffkeefijudnfci
-            <br> FinEdu Consultancy is a team of highely jzksxjx csjojdso sosijdijs sojsoid oisdjsjdi jasisdisid sdshdidsh sjshhxshi jshisdisd isosidsddhd sdoisdid ssiodsahsdoisoi sixisdhsb ssihsuds iudhisdhsbx sihsids xsdwsw iajsiaj ansis dwiidd wjsdwwi iwdd jojrr sdgtrs
-            <br> eojeeow kwjdwdjkjkih wowoekemddw wokpe wdiwjd ksdk ncjzx lsmkkjeds kdsnns sc,dskjdsi skjsjd skjsdjwjdei wwswdk kjfjfkf dlkdjjskdskdhd wdeirrefireio sdjeoiefnfd m wioeiref fdeif eiohfei fejfei eifjf ff ikfnekkf ffkeefijudnfci</p>
+          <p class="para2">In the times of growing social media and other awareness platforms, we still think that there is a huge need of financial awareness. Middle class in India is increasing and so is the gap between Rich and Poor increasing. People often face tough time only because they fail to understand the difference between Savings and Investments. Despite of everyone becoming Smart phone user, the knowledge base is still not improving.
+            <br>
+            <br> We feel that we are different because we have understood this problem very closely and we also understand that, if our country has to grow, our middle class must become Rich & Wealthy.
+            <br>
+            <br> To shorten this gap of middle class and Richer Class, we are ready to reach each and every earning member of our nation. Our intention is not to merely sell our products, rather, we wish to spread our knowledge to every part of country so that, we become financially aware and we are able to contribute to the growth of our country by making our people financially educated and of course Rich.</p>
         </div>
       </li>
       <li class="flex-item">
@@ -77,8 +74,9 @@
       <li class="flex-item">
         <div class="content3">
           <h5 class="head3">FinEdu at B-Schools</h5>
-          <p class="para1">FinEdu Consultancy is a team of highely jzksxjx csjojdso sosijdijs sojsoid oisdjsjdi jasisdisid sdshdidsh sjshhxshi jshisdisd isosidsddhd sdoisdid ssiodsahsdoisoi sixisdhsb ssihsuds iudhisdhsbx sihsids xshdjdd dddnidw dwiidd wjsdw iwdd joj9rr eojeeow kwjdwdjkjkih wowoekemddw wokpe wdiwjd ksdk ncjzx lsmkkjeds kdsnns sc,dskjdsi skjsjd skjsdjwjdei wwswdk ksdlsdsd sief err rfderdiwre fweriwere egjeffjwoejwfe efweeie wejrbewirfr oewrdheirne ernirie ef efnweif efweoinweoifneifnrif efinewonfoiwefnw wihri3h4g for efirne fefiwngrkelfnrf kreiwrefr fwerkfwef fvwrofjrfr fgh renfrifnir rwfrweirf
-            <br> wdsjed sdkfifwn wekirewff ewfjwjefoije wkfnwifwei dffcwifnifif fwiofni bvrfr gi eiwfnreiwf wsiriow dwfnwgnif wefbnbwiobrgv girnfirfwife gr rifir rifnreibf wirnfirr irnirv vrine reinreiirnef werinoowefrf riwngb winergrf wrefir irewjgbjkfal fgbiwrfg woifwrg woiirw foirf</p>
+          <p class="para1">FinEdu consultancy is also very active in training and development of Students across various Schools and colleges. At FINEDU Consultancy, we focus on Training the students as per the standards required by the Industry/Corporate. We make sure that, the students along with their regular courses are given a real world corporate environment in the college campus only so that they become habitual of what is required at the corporate level. They are passed through difficult training methods and strategies so that the real world requirements of corporate are touched during their studies and by the time the students are out of the campus, they are almost ready to face the cut throat competition of the tough corporate world.
+            <br>
+            <br> In addition to our regular placement and training activities, we have designed few short term training courses, which will help the students to break the barrier of getting into the Financial Companies and this will make them Corporate Ready. On Passing these Certification programs, Students have better chances of getting job offers from BANKS, FINANCIAL & BROKING FIRMS, INSURANCE COMPANIES, ASSET MANAGEMENT COMPANIES (AMC). </p>
           <div class="dialog-demo-content" layout="row" layout-wrap layout-margin layout-align="start">
             <md-button class="md-primary md-raised courseButton" ng-click="showAlert($event)"> Training Courses </md-button>
           </div>
@@ -162,23 +160,23 @@
   <ol class="gallery-nav">
     <li id="li1">
       <a ng-click="getClick('li1')">
-        <img src="app/imgs/person-icon.png" ng-class="{selectedImg : homectrl.selectedLi ==='li1'}" id="img1" width="40px" height="40px"> </a>
+        <img src="app/imgs/person-icon.png" ng-class="{selectedImg : homectrl.selectedLi ==='li1'}" id="img1" width="40px" height="40px" class="img"> </a>
     </li>
     <li id="li2">
       <a ng-click="getClick('li2')">
-        <img src="app/imgs/person-icon.png" ng-class="{selectedImg : homectrl.selectedLi ==='li2'}" id="img2" width="40px" height="40px"> </a>
+        <img src="app/imgs/person-icon.png" ng-class="{selectedImg : homectrl.selectedLi ==='li2'}" id="img2" width="40px" height="40px" class="img"> </a>
     </li>
     <li id="li3">
       <a ng-click="getClick('li3')">
-        <img src="app/imgs/person-icon.png" ng-class="{selectedImg : homectrl.selectedLi ==='li3'}" id="img3" width="40px" height="40px"> </a>
+        <img src="app/imgs/person-icon.png" ng-class="{selectedImg : homectrl.selectedLi ==='li3'}" id="img3" width="40px" height="40px" class="img"> </a>
     </li>
     <li id="li4">
       <a ng-click="getClick('li4')">
-        <img src="app/imgs/person-icon.png" ng-class="{selectedImg : homectrl.selectedLi ==='li4'}" id="img4" width="40px" height="40px"> </a>
+        <img src="app/imgs/person-icon.png" ng-class="{selectedImg : homectrl.selectedLi ==='li4'}" id="img4" width="40px" height="40px" class="img"> </a>
     </li>
     <li id="li5">
       <a ng-click="getClick('li5')">
-        <img src="app/imgs/person-icon.png" ng-class="{selectedImg : homectrl.selectedLi ==='li5'}" id="img5" width="40px" height="40px"> </a>
+        <img src="app/imgs/person-icon.png" ng-class="{selectedImg : homectrl.selectedLi ==='li5'}" id="img5" width="40px" height="40px" class="img"> </a>
     </li>
   </ol>
   <!-- {{homectrl.flkty.selectedIndex}} -->
