@@ -9,13 +9,13 @@
       <div class="nav">
         <ul>
           <li><a du-smooth-scroll="top" offset="100" du-scrollspy>HOME</a></li>
-          <li><a du-smooth-scroll="who-we-are" offset="100" du-scrollspyhref="#">WHO WE ARE</a></li>
-          <li><a du-smooth-scroll="why-finedu" offset="100" du-scrollspyhref="#">WHY FINEDU?</a></li>
-          <li><a du-smooth-scroll="b-school" offset="100" du-scrollspyhref="#">B-SCHOOL</a></li>
-          <li><a du-smooth-scroll="team" offset="100" du-scrollspyhref="#">TEAM</a></li>
-          <li><a du-smooth-scroll="product" offset="100" du-scrollspyhref="#">PRODUCT</a></li>
-          <li><a du-smooth-scroll="people-say" offset="100" du-scrollspyhref="#">PEOPLE SAY</a></li>
-          <li><a du-smooth-scroll="contact" offset="100" du-scrollspyhref="#">CONTACT</a></li>
+          <li><a du-smooth-scroll="who-we-are" offset="100" du-scrollspy>WHO WE ARE</a></li>
+          <li><a du-smooth-scroll="why-finedu" offset="100" du-scrollspy>WHY FINEDU?</a></li>
+          <li><a du-smooth-scroll="b-school" offset="100" du-scrollspy>B-SCHOOL</a></li>
+          <li><a du-smooth-scroll="team" offset="100" du-scrollspy>TEAM</a></li>
+          <li><a du-smooth-scroll="product" offset="100" du-scrollspy>PRODUCT</a></li>
+          <li><a du-smooth-scroll="people-say" offset="100" du-scrollspy>PEOPLE SAY</a></li>
+          <li><a du-smooth-scroll="contact" offset="100" du-scrollspy>CONTACT</a></li>
         </ul>
       </div>
     </div>
@@ -182,37 +182,38 @@
   <!-- {{homectrl.flkty.selectedIndex}} -->
 </div>
 <div class="section7" id="contact">
-  <form class="form-main" name="contactus">
+  <form class="form-main" name="userForm">
     <h2>GIVE US A GOOD NEWS</h2>
     <div class="group">
-      <input type="text" class="input-field" required>
+      <input type="text" ng-model="user.name" class="input-field" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label class="label-name">Name</label>
     </div>
     <div class="group">
-      <input type="email" class="input-field" required>
+      <input type="email" ng-model="user.email" class="input-field" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label class="label-name">Email</label>
     </div>
     <div class="group">
-      <input type="tel" class="input-field" name="mobile" id="mobile" required>
+      <input type="tel" ng-model="user.subject" class="input-field" name="mobile" id="mobile" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label class="label-name">Subject</label>
     </div>
     <div class="group">
-      <input type="text" class="input-field messageHeight" required>
+      <input type="text" ng-model="user.message" class="input-field messageHeight" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label class="label-name">Your Message</label>
     </div>
     <div class="bottomDiv">
       <div>
-        <button class="field-button">SUBMIT</button>
+        <button class="field-button" ng-click="onSubmit()">SUBMIT</button>
       </div>
     </div>
+    <pre> {{user | json}} </pre>
   </form>
   <div class="partner">
     <h2>OUR PARTNERS</h2>

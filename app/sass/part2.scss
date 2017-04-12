@@ -737,7 +737,7 @@ table {
   background-color: #ECEFEE;
   width: 100%;
   .flex-container2 {
-    height: 450px;
+    height: 100%;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -748,13 +748,13 @@ table {
     display: flex;
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
-    padding: 130px 0 0 130px;
+    padding: 5% 0 5% 10%;
     .flex-item {
       padding-top: 3%;
     }
     .flex-item2 {
       width: 55%;
-      height: 350px;
+      height: 100%;
       color: black;
       .content2 {
         .head2 {
@@ -860,4 +860,10 @@ md-dialog {
   .flickity-prev-next-button{
     display: none;
   }
+}
+.has-error{
+  color: red;
+}
+.has-success{
+  color: green;
 }

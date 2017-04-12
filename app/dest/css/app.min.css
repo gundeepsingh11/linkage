@@ -15481,7 +15481,7 @@ table {
   background-color: #ECEFEE;
   width: 100%; }
   .section2 .flex-container2 {
-    height: 450px;
+    height: 100%;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -15491,12 +15491,12 @@ table {
     -webkit-flex-flow: row wrap;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    padding: 130px 0 0 130px; }
+    padding: 5% 0 5% 10%; }
     .section2 .flex-container2 .flex-item {
       padding-top: 3%; }
     .section2 .flex-container2 .flex-item2 {
       width: 55%;
-      height: 350px;
+      height: 100%;
       color: black; }
       .section2 .flex-container2 .flex-item2 .content2 .head2 {
         font-size: 20px;
@@ -15578,3 +15578,6 @@ md-dialog {
     display: none; }
   .mainSlider .flickity-prev-next-button {
     display: none; }
+
+.has-error {
+  color: red; }

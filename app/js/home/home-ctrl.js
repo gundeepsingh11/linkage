@@ -4,7 +4,21 @@ $stateProvider.state( 'home', {
   templateUrl: 'app/js/home/home.tpl',
   controller: 'HomeCtrl'
 } );
-} ).controller( 'HomeCtrl', function( $scope, $window, $mdDialog ) {
+} ).controller( 'HomeCtrl', function( $scope, $window, $mdDialog, $http ) {
+
+	$scope.user = {};
+	$scope.onSubmit = function () {
+		console.log("hello Gundeep");
+		console.log($scope.user);
+
+		$http.post('https://minmax-server.herokuapp.com/register/', $scope.user)
+		.success(function(data){
+				console.log("success");
+			}).error(function (data){
+				console.log("error");
+			});
+		};
+
   var elem = document.querySelector( '.gallery' );
   var flkty = new Flickity( elem, {
     // options
@@ -27,7 +41,8 @@ $stateProvider.state( 'home', {
   cellAlign: 'left',
   contain: true,
   autoPlay: 2000,
-  pauseAutoPlayOnHover: false
+  pauseAutoPlayOnHover: false,
+  wrapAround: true
 });
 var nav = document.querySelector( '.gallery-nav' );
 // get array of items with li tag
