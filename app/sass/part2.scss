@@ -829,6 +829,10 @@ table {
         border: 1px solid white;
         color: white;
       }
+      .courseButton:focus{
+        background-color: #00E0D0;
+        color: white;
+      }
     }
   }
 }

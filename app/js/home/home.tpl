@@ -1,6 +1,9 @@
 <!-- <div>hello</div>
 
 <div ng-include="'app/js/part2/part2.tpl'" style="height: 100%;"></div> -->
+
+
+
 <div class="main">
   <div id="home" class="top-header">
     <div class="contact-container">
@@ -182,16 +185,16 @@
   <!-- {{homectrl.flkty.selectedIndex}} -->
 </div>
 <div class="section7" id="contact">
-  <form class="form-main" name="userForm">
+  <form class="form-main" name="userForm" onsubmit="onSubmit()" method="post" action="usermail.php">
     <h2>GIVE US A GOOD NEWS</h2>
     <div class="group">
-      <input type="text" ng-model="user.name" class="input-field" required>
+      <input type="text" ng-model="user.name" name="name" class="input-field" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label class="label-name">Name</label>
     </div>
     <div class="group">
-      <input type="email" ng-model="user.email" class="input-field" required>
+      <input type="email" ng-model="user.email" name="email" class="input-field" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label class="label-name">Email</label>
@@ -203,14 +206,14 @@
       <label class="label-name">Subject</label>
     </div>
     <div class="group">
-      <input type="text" ng-model="user.message" class="input-field messageHeight" required>
+      <textarea ng-model="user.message" class="input-field messageHeight" name="message" required></textarea>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label class="label-name">Your Message</label>
     </div>
     <div class="bottomDiv">
       <div>
-        <button class="field-button" ng-click="onSubmit()">SUBMIT</button>
+        <button class="field-button" type="submit">SUBMIT</button>
       </div>
     </div>
     <pre> {{user | json}} </pre>

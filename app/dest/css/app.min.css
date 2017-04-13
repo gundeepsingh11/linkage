@@ -15558,6 +15558,9 @@ table {
         background-color: #00E0D0;
         border: 1px solid white;
         color: white; }
+      .section3 .flex-container3 .flex-item .courseButton:focus {
+        background-color: #00E0D0;
+        color: white; }
 
 /*override Angular material css*/
 md-dialog {
@@ -15581,3 +15584,6 @@ md-dialog {
 
 .has-error {
   color: red; }
+
+.has-success {
+  color: green; }
