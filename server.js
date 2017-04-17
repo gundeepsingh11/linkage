@@ -25,8 +25,10 @@ app.post( "/home", function( req, res ) {
     mailgun.messages().send( data, function( error, body ) {
       console.log( body );
       //var element = document.getElementById("mailSent"); element.innerHTML = "New text!";
-      if ( !error ) 
+      if ( !error ) {
          res.sendFile( path.join( __dirname, 'index.html' ) );
+         // alert('hello');
+       }
       // res.send( contact.tpl ); 
       else res.send( "Mail not Send" );
     } );

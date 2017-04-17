@@ -2,7 +2,7 @@
 
 <div ng-include="'app/js/part2/part2.tpl'" style="height: 100%;"></div> -->
 <div class="main">
-<button ng-click="topFunction($event)" id="myBtn" title="Go to top">Top</button>
+<!-- <button ng-click="topFunction($event)" id="myBtn" title="Go to top">Top</button> -->
   <div id="home" class="top-header">
     <div class="contact-container">
       <div id="FinEdu" class="tele-logo">
@@ -110,7 +110,9 @@
   </div>
 </div>
 <div class="section5" id="product">
-  <div class="wordConatainer"></div>
+  <div class="wordConatainer">
+    <img src="app/imgs/icon2.png" width="100%">
+  </div>
 </div>
 <div class="clear"></div>
 <div class="section6" id="people-say">

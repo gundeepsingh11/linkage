@@ -14967,13 +14967,11 @@ table {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
 
 .section5 {
-  height: 700px;
-  margin-top: 8%;
-  margin-bottom: 2%; }
+  height: 100%;
+  margin-top: 5%;
+  margin-bottom: 10%; }
   .section5 .wordConatainer {
-    background-image: url("imgs/icon2.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    text-align: center;
     width: 100%;
     height: 100%; }
 
