@@ -73,7 +73,6 @@ angular.module( 'home', [ 'ngMaterial', 'contact' ] ).config( function( $statePr
     }
   }
   // When the user scrolls down 20px from the top of the document, show the button
-
   function scrollFunction() {
     if ( document.body.scrollTop > 2500 || document.documentElement.scrollTop > 2500 ) {
       document.getElementById( "myBtn" ).style.display = "block";
@@ -82,8 +81,9 @@ angular.module( 'home', [ 'ngMaterial', 'contact' ] ).config( function( $statePr
     }
   }
   // When the user clicks on the button, scroll to the top of the document
-  function topFunction(ev) {
+  function topFunction( ev ) {
     document.body.scrollTop = 0; // For Chrome, Safari and Opera 
     document.documentElement.scrollTop = 0; // For IE and Firefox
   }
+  
 } );

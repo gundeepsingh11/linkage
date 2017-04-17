@@ -2,7 +2,7 @@
 
 <div ng-include="'app/js/part2/part2.tpl'" style="height: 100%;"></div> -->
 <div class="main">
-<!-- <button ng-click="topFunction($event)" id="myBtn" title="Go to top">Top</button> -->
+  <button ng-click="topFunction($event)" id="myBtn" title="Go to top">Top</button>
   <div id="home" class="top-header">
     <div class="contact-container">
       <div id="FinEdu" class="tele-logo">
@@ -102,16 +102,47 @@
       <div class="card">
         <img src="app/imgs/img_avatar.png" alt="Avatar">
         <div class="container">
-          <h4><b>Vineeta Sharma</b></h4>
-          <p>Advocate</p>
+          <h4>Vineeta Sharma
+            <span> (Advocate)</span>
+          </h4>
+          <p>Tax Consultancy</p>
         </div>
       </div>
     </div>
   </div>
 </div>
 <div class="section5" id="product">
-  <div class="wordConatainer">
+  <!-- <div class="wordConatainer">
     <img src="app/imgs/icon2.png" width="100%">
+  </div> -->
+  <div class="columns">
+    <ul class="price">
+      <li class="header">Investment Consultancy</li>
+      <li>Mutual Funds <br><br>
+        <span>Life Insurance | General Insurance</span>
+      </li>
+      <li>Insurance</li>
+      <li>PMS (Portfolio Managemnt Services)</li>
+    </ul>
+  </div>
+  <div class="columns">
+    <ul class="price">
+      <li class="header" style="background-color:#0b9060">Tax Consultancy</li>
+      <li>Income Tax</li>
+      <li>Sales Tax</li>
+      <li>Service Tax</li>
+      <li>Registration</li>
+      <li>GST</li>
+      <li>Import/Export License</li>
+    </ul>
+  </div>
+  <div class="columns">
+    <ul class="price">
+      <li class="header">Others</li>
+      <li>Public Speaking</li>
+      <li>Tranning & Development</li>
+      <li ng-click="showAlert($event)" style="color: #0b9060">Coaching</li>
+    </ul>
   </div>
 </div>
 <div class="clear"></div>

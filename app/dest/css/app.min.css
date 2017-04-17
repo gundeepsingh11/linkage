@@ -14961,19 +14961,58 @@ table {
           border-bottom: 0.5px solid white; }
           .section4 .backImg .cardContainer .card .container h4 {
             font-weight: bolder; }
+            .section4 .backImg .cardContainer .card .container h4 span {
+              font-weight: lighter; }
           .section4 .backImg .cardContainer .card .container p {
             font-size: 14px; }
       .section4 .backImg .cardContainer .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
 
 .section5 {
-  height: 100%;
+  height: 1000px;
   margin-top: 5%;
-  margin-bottom: 10%; }
+  margin-bottom: 5%; }
   .section5 .wordConatainer {
     text-align: center;
     width: 100%;
     height: 100%; }
+  .section5 .columns {
+    float: left;
+    width: 32.3%;
+    padding: 0.5%; }
+  .section5 .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+  .section5 .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2); }
+  .section5 .price .header {
+    background-color: #676767;
+    color: white;
+    font-size: 25px; }
+  .section5 .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center; }
+    .section5 .price li span {
+      font-size: 14px; }
+  .section5 .price .grey {
+    background-color: #eee;
+    font-size: 20px; }
+  .section5 .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px; }
+  @media only screen and (max-width: 600px) {
+    .section5 .columns {
+      width: 100%; } }
 
 /*slider css*/
 .fa {
@@ -15361,9 +15400,9 @@ table {
         cursor: pointer;
         -webkit-transition: .5s;
         transition: .5s;
-        color: #00E0D0; }
+        color: #0b9060; }
       .top-header .nav ul li a.active {
-        color: #00E0D0; }
+        color: #0b9060; }
 
 .fixed-header {
   display: -webkit-box;
@@ -15402,9 +15441,9 @@ table {
         cursor: pointer;
         -webkit-transition: .5s;
         transition: .5s;
-        color: #00E0D0; }
+        color: #0b9060; }
       .fixed-header .nav ul li a.active {
-        color: #00E0D0; }
+        color: #0b9060; }
 
 .contact-container {
   display: -webkit-box;
