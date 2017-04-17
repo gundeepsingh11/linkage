@@ -15274,7 +15274,8 @@ table {
         float: left; }
         .footer .footerContent .footer3 .group .input-field {
           background-color: transparent;
-          padding: 10px 10px 0px 5px; }
+          padding: 10px 10px 0px 5px;
+          color: white; }
         .footer .footerContent .footer3 .group .label-name {
           top: 3px;
           left: 6px;
@@ -15293,8 +15294,9 @@ table {
         background-color: white;
         opacity: 0.5;
         margin-top: 10%;
-        position: relative;
-        left: 8%; }
+        position: absolute;
+        left: 111%;
+        bottom: 1%; }
       .footer .footerContent .footer3 h3 {
         margin-top: 20%;
         font-size: 14px; }

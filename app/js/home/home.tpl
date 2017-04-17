@@ -1,9 +1,6 @@
 <!-- <div>hello</div>
 
 <div ng-include="'app/js/part2/part2.tpl'" style="height: 100%;"></div> -->
-
-
-
 <div class="main">
   <div id="home" class="top-header">
     <div class="contact-container">
@@ -45,7 +42,7 @@
       <li class="flex-item1">
         <div class="content">
           <h5 class="head">Who We Are</h5>
-          <p class="para1">FinEdu Consultancy is a team of highly enthusiastic and efficient professionals, headed by Mr. Vipul Kaushikk who is dedicated to spread Financial Awareness across country.  He believes that if our county has to grow Rich, the youth must understand the importance of money and its use. We understand the financial and business needs and by virtue of around 40 yrs of our man experience, we are able to form a special headhunting team working 24x7 only with a clear motive of motivating people financially. </p>
+          <p class="para1">FinEdu Consultancy is a team of highly enthusiastic and efficient professionals, headed by Mr. Vipul Kaushikk who is dedicated to spread Financial Awareness across country. He believes that if our county has to grow Rich, the youth must understand the importance of money and its use. We understand the financial and business needs and by virtue of around 40 yrs of our man experience, we are able to form a special headhunting team working 24x7 only with a clear motive of motivating people financially. </p>
         </div>
       </li>
     </ul>
@@ -185,10 +182,10 @@
   <!-- {{homectrl.flkty.selectedIndex}} -->
 </div>
 <div class="section7" id="contact">
-  <form class="form-main" name="userForm" onsubmit="onSubmit()" method="post" action="usermail.php">
+  <form class="form-main" name="userForm" method="post" action="contact">
     <h2>GIVE US A GOOD NEWS</h2>
     <div class="group">
-      <input type="text" ng-model="user.name" name="name" class="input-field" required>
+      <input type="text" id="name" ng-model="user.name" name="name" class="input-field" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label class="label-name">Name</label>
@@ -200,7 +197,7 @@
       <label class="label-name">Email</label>
     </div>
     <div class="group">
-      <input type="tel" ng-model="user.subject" class="input-field" name="mobile" id="mobile" required>
+      <input type="tel" ng-model="user.subject" class="input-field" name="subject" id="subject" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label class="label-name">Subject</label>
@@ -216,7 +213,6 @@
         <button class="field-button" type="submit">SUBMIT</button>
       </div>
     </div>
-    <pre> {{user | json}} </pre>
   </form>
   <div class="partner">
     <h2>OUR PARTNERS</h2>
@@ -255,12 +251,14 @@
       <ul>
         <li>STAY IN TOUCH</li>
         <li class="group">
-          <input type="text" class="input-field" required>
-          <span class="highlight"></span>
-          <span class="bar"></span>
-          <label class="label-name">Subscribe our newsletter</label>
+          <form method="post" action="subscribe">
+            <input type="text" class="input-field" name="subscribe" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label class="label-name">Subscribe our newsletter</label>
+            <button type="submit"></button>
+          </form>
         </li>
-        <button></button>
         <li>
           <div class="socialContainer">
             <a href="https://www.facebook.com/">

@@ -1,4 +1,4 @@
-angular.module( 'home', [ 'ngMaterial' ] ).config( function( $stateProvider ) {
+angular.module( 'home', [ 'ngMaterial', 'contact' ] ).config( function( $stateProvider ) {
   $stateProvider.state( 'home', {
     url: '/home',
     templateUrl: 'app/js/home/home.tpl',
@@ -6,24 +6,7 @@ angular.module( 'home', [ 'ngMaterial' ] ).config( function( $stateProvider ) {
   } );
 } ).controller( 'HomeCtrl', function( $scope, $window, $mdDialog, $http ) {
   $scope.user = {};
-  $scope.onSubmit = function() {
-      console.log( 'php1' );
-      http.post( '/usermail.php', {
-        url: usermail.php
-      } ).success( function( data ) {
-        console.log( data );
-      } );
-    };
-    // $scope.onSubmit = function () {
-    // 	console.log("hello Gundeep");
-    // 	console.log($scope.user);
-    // 	$http.post('usermail.php', $scope.user)
-    // 	.success(function(data){
-    // 			console.log("success");
-    // 		}).error(function (data){
-    // 			console.log("error");
-    // 		});
-    // 	};
+
   var elem = document.querySelector( '.gallery' );
   var flkty = new Flickity( elem, {
     // options
