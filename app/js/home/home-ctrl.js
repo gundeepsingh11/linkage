@@ -6,7 +6,6 @@ angular.module( 'home', [ 'ngMaterial', 'contact' ] ).config( function( $statePr
   } );
 } ).controller( 'HomeCtrl', function( $scope, $window, $mdDialog, $http ) {
   $scope.user = {};
-
   var elem = document.querySelector( '.gallery' );
   var flkty = new Flickity( elem, {
     // options
@@ -44,6 +43,7 @@ angular.module( 'home', [ 'ngMaterial', 'contact' ] ).config( function( $statePr
   console.log( "homectrl" );
   $scope.homectrl.slides = items;
   $scope.getClick = getClick;
+  $scope.topFunction = topFunction;
   // $scope.testimonialSelected = testimonialSelected;
   // var galleryElem = document.getElementsByClassName( 'gallery' );
   // var flkty = new Flickity( galleryElem );
@@ -62,6 +62,7 @@ angular.module( 'home', [ 'ngMaterial', 'contact' ] ).config( function( $statePr
   // }
   window.onscroll = function() {
     myFunction();
+    scrollFunction();
   };
 
   function myFunction() {
@@ -70,5 +71,19 @@ angular.module( 'home', [ 'ngMaterial', 'contact' ] ).config( function( $statePr
     } else {
       document.getElementById( "home" ).className = "top-header";
     }
+  }
+  // When the user scrolls down 20px from the top of the document, show the button
+
+  function scrollFunction() {
+    if ( document.body.scrollTop > 2500 || document.documentElement.scrollTop > 2500 ) {
+      document.getElementById( "myBtn" ).style.display = "block";
+    } else {
+      document.getElementById( "myBtn" ).style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction(ev) {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
   }
 } );

@@ -2,6 +2,7 @@
 
 <div ng-include="'app/js/part2/part2.tpl'" style="height: 100%;"></div> -->
 <div class="main">
+<button ng-click="topFunction($event)" id="myBtn" title="Go to top">Top</button>
   <div id="home" class="top-header">
     <div class="contact-container">
       <div id="FinEdu" class="tele-logo">
@@ -182,7 +183,7 @@
   <!-- {{homectrl.flkty.selectedIndex}} -->
 </div>
 <div class="section7" id="contact">
-  <form class="form-main" name="userForm" method="post" action="contact">
+  <form class="form-main" name="userForm" method="post" action="home">
     <h2>GIVE US A GOOD NEWS</h2>
     <div class="group">
       <input type="text" id="name" ng-model="user.name" name="name" class="input-field" required>
