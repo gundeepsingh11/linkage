@@ -660,7 +660,7 @@ table {
   z-index: 1;
   align-items: center;
   position: fixed;
-  top: 17px;
+  top: 0px;
   transition-duration: 1s;
   width: 100%;
   .nav {
@@ -930,7 +930,7 @@ md-dialog {
       display: none !important;
     }
     .ind-img{
-      display: none;
+      display: none !important;
     }
     .flex-item1 {
       width: 100%;

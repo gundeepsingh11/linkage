@@ -15411,7 +15411,7 @@ table {
   -ms-flex-align: center;
   align-items: center;
   position: fixed;
-  top: 17px;
+  top: 0px;
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
   width: 100%; }
@@ -15633,7 +15633,7 @@ md-dialog {
   .flex-container1 .bImg {
     display: none !important; }
   .flex-container1 .ind-img {
-    display: none; }
+    display: none !important; }
   .flex-container1 .flex-item1 {
     width: 100%;
     padding: 5%; }

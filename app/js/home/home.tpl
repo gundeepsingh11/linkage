@@ -245,7 +245,7 @@
       <label class="label-name">Email</label>
     </div>
     <div class="group">
-      <input type="tel" ng-model="user.subject" class="input-field" name="subject" id="subject" required>
+      <input type="text" ng-model="user.subject" class="input-field" name="subject" id="subject" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label class="label-name">Subject</label>
