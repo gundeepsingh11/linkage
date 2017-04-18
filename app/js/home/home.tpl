@@ -21,7 +21,7 @@
       </div>
     </div> -->
     <div class="topnav" id="myTopnav">
-      <a><img src="app/imgs/logo.png"></a> 
+      <span><img src="app/imgs/logo.png"></span> 
       <a du-smooth-scroll="top" offset="100" du-scrollspy>HOME</a> 
       <a du-smooth-scroll="who-we-are" offset="100" du-scrollspy>WHO WE ARE</a> 
       <a du-smooth-scroll="why-finedu" offset="100" du-scrollspy>WHY FINEDU?</a> 
