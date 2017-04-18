@@ -4,7 +4,7 @@
 <div class="main">
   <button ng-click="topFunction($event)" id="myBtn" title="Go to top">Top</button>
   <div id="home" class="top-header">
-    <div class="contact-container">
+    <!-- <div class="contact-container">
       <div id="FinEdu" class="tele-logo">
         <img src="app/imgs/logo.png" /> </div>
       <div class="nav">
@@ -19,6 +19,18 @@
           <li><a du-smooth-scroll="contact" offset="100" du-scrollspy>CONTACT</a></li>
         </ul>
       </div>
+    </div> -->
+    <div class="topnav" id="myTopnav">
+      <a><img src="app/imgs/logo.png"></a> 
+      <a du-smooth-scroll="top" offset="100" du-scrollspy>HOME</a> 
+      <a du-smooth-scroll="who-we-are" offset="100" du-scrollspy>WHO WE ARE</a> 
+      <a du-smooth-scroll="why-finedu" offset="100" du-scrollspy>WHY FINEDU?</a> 
+      <a du-smooth-scroll="b-school" offset="100" du-scrollspy>B-SCHOOL</a>
+      <a du-smooth-scroll="team" offset="100" du-scrollspy>TEAM</a>
+      <a du-smooth-scroll="product" offset="100" du-scrollspy>PRODUCT</a>
+      <a du-smooth-scroll="people-say" offset="100" du-scrollspy>PEOPLE SAY</a>
+      <a du-smooth-scroll="contact" offset="100" du-scrollspy>CONTACT</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" ng-click="mobileMenu($event)">&#9776;</a> 
     </div>
   </div>
   <div class="mainSlider" id="top">

@@ -44,6 +44,7 @@ angular.module( 'home', [ 'ngMaterial', 'contact' ] ).config( function( $statePr
   $scope.homectrl.slides = items;
   $scope.getClick = getClick;
   $scope.topFunction = topFunction;
+  $scope.mobileMenu = mobileMenu;
   // $scope.testimonialSelected = testimonialSelected;
   // var galleryElem = document.getElementsByClassName( 'gallery' );
   // var flkty = new Flickity( galleryElem );
@@ -85,5 +86,13 @@ angular.module( 'home', [ 'ngMaterial', 'contact' ] ).config( function( $statePr
     document.body.scrollTop = 0; // For Chrome, Safari and Opera 
     document.documentElement.scrollTop = 0; // For IE and Firefox
   }
+  function mobileMenu() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
   
 } );
