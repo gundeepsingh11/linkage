@@ -15411,7 +15411,7 @@ table {
   -ms-flex-align: center;
   align-items: center;
   position: fixed;
-  top: 0px;
+  top: 17px;
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
   width: 100%; }
@@ -15632,6 +15632,8 @@ md-dialog {
 @media only screen and (max-width: 950px) {
   .flex-container1 .bImg {
     display: none !important; }
+  .flex-container1 .ind-img {
+    display: none; }
   .flex-container1 .flex-item1 {
     width: 100%;
     padding: 5%; }
@@ -15721,7 +15723,8 @@ md-dialog {
     display: none; }
   .topnav a.icon {
     float: right;
-    display: block; } }
+    display: block;
+    width: 15%; } }
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
@@ -15729,7 +15732,8 @@ md-dialog {
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
-    top: 0; }
+    top: 0;
+    width: 15%; }
   .topnav a {
     padding: 0; }
   .topnav.responsive a {

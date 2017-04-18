@@ -660,7 +660,7 @@ table {
   z-index: 1;
   align-items: center;
   position: fixed;
-  top: 0px;
+  top: 17px;
   transition-duration: 1s;
   width: 100%;
   .nav {
@@ -1043,6 +1043,7 @@ md-dialog {
   .topnav a.icon {
     float: right;
     display: block;
+    width: 15%;
   }
 }
 
@@ -1052,6 +1053,7 @@ md-dialog {
     position: absolute;
     right: 0;
     top: 0;
+    width: 15%;
   }
   .topnav a {
     padding: 0;
