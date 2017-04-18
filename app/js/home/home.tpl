@@ -66,15 +66,15 @@
       </li>
     </ul>
   </div>
-  <div class="section3" id="b-school">
-    <ul class="flex-container3">
-      <li class="flex-item3">
-        <div class="third-img">
+  <div id="b-school">
+    <ul class="flex-container1">
+      <li class="flex-item1">
+        <div class="bImg">
           <img src="app/imgs/image2.jpg"> </div>
       </li>
-      <li class="flex-item">
-        <div class="content3">
-          <h5 class="head3">FinEdu at B-Schools</h5>
+      <li class="flex-item1">
+        <div class="content">
+          <h5 class="head">FinEdu at B-Schools</h5>
           <p class="para1">FinEdu consultancy is also very active in training and development of Students across various Schools and colleges. At FINEDU Consultancy, we focus on Training the students as per the standards required by the Industry/Corporate. We make sure that, the students along with their regular courses are given a real world corporate environment in the college campus only so that they become habitual of what is required at the corporate level. They are passed through difficult training methods and strategies so that the real world requirements of corporate are touched during their studies and by the time the students are out of the campus, they are almost ready to face the cut throat competition of the tough corporate world.
             <br>
             <br> In addition to our regular placement and training activities, we have designed few short term training courses, which will help the students to break the barrier of getting into the Financial Companies and this will make them Corporate Ready. On Passing these Certification programs, Students have better chances of getting job offers from BANKS, FINANCIAL & BROKING FIRMS, INSURANCE COMPANIES, ASSET MANAGEMENT COMPANIES (AMC). </p>
@@ -118,7 +118,9 @@
   <div class="columns">
     <ul class="price">
       <li class="header">Investment Consultancy</li>
-      <li>Mutual Funds <br><br>
+      <li>Mutual Funds
+        <br>
+        <br>
         <span>Life Insurance | General Insurance</span>
       </li>
       <li>Insurance</li>
@@ -311,5 +313,42 @@
         </li>
       </ul>
     </div>
+  </div>
+</div>
+<div class="mobileFooter">
+  <div class="mobileFooterContainer">
+    <ul>
+      <li>
+        <img src="app/imgs/white_logo.png"> </li>
+    </ul>
+    <ul>
+      <li>
+        <h2>OUR ADDRESS</h2>
+      </li>
+      <li class="topPad">
+        <img src="app/imgs/location_icon.png"> 2501/1,2nd Floor, Vidyanand Market,
+        <p>Teliwara, Delhi- 110006</p>
+      </li>
+      <li class="topPad">
+        <img src="app/imgs/contact_icon.png">+91-98 1173 5353 | 99 7124 5353</li>
+    </ul>
+    <ul>
+      <li>
+        <div class="socialContainer">
+          <a href="https://www.facebook.com/">
+            <div class="fbIcon"> </div>
+          </a>
+          <a href="https://www.twitter.com/">
+            <div class="twitter"> </div>
+          </a>
+          <a href="https://www.youtube.com/">
+            <div class="youTube"> </div>
+          </a>
+        </div>
+      </li>
+      <li>
+        <h3>Copyright © 2017 - FinEdu Consultancy</h3>
+      </li>
+    </ul>
   </div>
 </div>
