@@ -1016,6 +1016,7 @@ md-dialog {
 .topnav {
   overflow: hidden;
   z-index: 1;
+  width: 97%;
 }
 
 .topnav a {
@@ -1028,11 +1029,6 @@ md-dialog {
   font-size: 13px;
       line-height: 4;
     height: 50px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
 }
 
 .topnav .icon {
