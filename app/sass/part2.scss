@@ -926,6 +926,9 @@ md-dialog {
 }
 
 @media only screen and (max-width: 950px) {
+  .section6{
+    display: none;
+  }
   .flex-container1 {
     .bImg {
       display: none !important;
