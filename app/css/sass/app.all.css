@@ -806,7 +806,8 @@ md-dialog {
   text-decoration: none;
   font-size: 13px;
   line-height: 4;
-  height: 50px; }
+  height: 50px;
+  cursor: pointer; }
 
 .topnav .icon {
   display: none; }

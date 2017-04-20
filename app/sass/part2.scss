@@ -156,7 +156,7 @@ table {
   }
   @media only screen and (max-width: 600px) {
     .columns {
-      width: 100%;
+      width: 99%;
     }
   }
 }
@@ -1032,6 +1032,7 @@ md-dialog {
   font-size: 13px;
       line-height: 4;
     height: 50px;
+    cursor: pointer;
 }
 
 .topnav .icon {
