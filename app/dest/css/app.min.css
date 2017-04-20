@@ -15011,7 +15011,7 @@ table {
     font-size: 18px; }
   @media only screen and (max-width: 600px) {
     .section5 .columns {
-      width: 100%; } }
+      width: 99%; } }
 
 /*slider css*/
 .fa {
@@ -15697,7 +15697,10 @@ md-dialog {
         width: 32px;
         background-position: -70px 0px; }
   .section4 .backImg .cardContainer .card {
-    width: 100%; } }
+    width: 100%;
+    margin: 0; }
+    .section4 .backImg .cardContainer .card .container {
+      height: 72px; } }
 
 .topnav {
   overflow: hidden;
