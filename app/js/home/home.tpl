@@ -6,7 +6,7 @@
       <a du-smooth-scroll="top" offset="100" du-scrollspy ng-click="mobileMenu($event)">HOME</a> 
       <a du-smooth-scroll="who-we-are" offset="100" du-scrollspy ng-click="mobileMenu($event)">WHO WE ARE</a> 
       <a du-smooth-scroll="why-finedu" offset="100" du-scrollspy ng-click="mobileMenu($event)">WHY FINEDU?</a> 
-      <a du-smooth-scroll="b-school" offset="100" du-scrollspy>B-SCHOOL</a>
+      <a du-smooth-scroll="b-school" offset="100" du-scrollspy ng-click="mobileMenu($event)">B-SCHOOL</a>
       <a du-smooth-scroll="team" offset="100" du-scrollspy ng-click="mobileMenu($event)">TEAM</a>
       <a du-smooth-scroll="product" offset="100" du-scrollspy ng-click="mobileMenu($event)">PRODUCT</a>
       <a du-smooth-scroll="people-say" offset="100" du-scrollspy ng-click="mobileMenu($event)">PEOPLE SAY</a>
