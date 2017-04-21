@@ -45,10 +45,11 @@ angular.module( 'home', [ 'ngMaterial', 'contact' ] ).config( function( $statePr
   $scope.getClick = getClick;
   $scope.topFunction = topFunction;
   $scope.mobileMenu = mobileMenu;
-  $scope.isCollapsed = false;
-  // $scope.testimonialSelected = testimonialSelected;
-  // var galleryElem = document.getElementsByClassName( 'gallery' );
-  // var flkty = new Flickity( galleryElem );
+  // $scope.hideMobileMenu = hideMobileMenu;
+
+  // function hideMobileMenu( hide ) {
+  //    document.getElementById( "myTopnav" ).style.display = "none";
+  //  }
   function getClick( slide ) {
     // console.log(flkty.selectedIndex);
     var liElement = document.getElementById( slide );
@@ -87,13 +88,13 @@ angular.module( 'home', [ 'ngMaterial', 'contact' ] ).config( function( $statePr
     document.body.scrollTop = 0; // For Chrome, Safari and Opera 
     document.documentElement.scrollTop = 0; // For IE and Firefox
   }
+
   function mobileMenu() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
+    var x = document.getElementById( "myTopnav" );
+    if ( x.className === "topnav" ) {
+      x.className += " responsive";
     } else {
-        x.className = "topnav";
+      x.className = "topnav";
     }
-}
-  
+  }
 } );

@@ -1,19 +1,16 @@
-<!-- <div>hello</div>
-
-<div ng-include="'app/js/part2/part2.tpl'" style="height: 100%;"></div> -->
 <div class="main">
   <button ng-click="topFunction($event)" id="myBtn" title="Go to top">Top</button>
   <div id="home" class="top-header">
     <div class="topnav" id="myTopnav">
       <a du-smooth-scroll="top" offset="100" du-scrollspy><span><img src="app/imgs/logo.png"></span></a> 
-      <a du-smooth-scroll="top" offset="100" du-scrollspy>HOME</a> 
-      <a du-smooth-scroll="who-we-are" offset="100" du-scrollspy>WHO WE ARE</a> 
-      <a du-smooth-scroll="why-finedu" offset="100" du-scrollspy>WHY FINEDU?</a> 
+      <a du-smooth-scroll="top" offset="100" du-scrollspy ng-click="mobileMenu($event)">HOME</a> 
+      <a du-smooth-scroll="who-we-are" offset="100" du-scrollspy ng-click="mobileMenu($event)">WHO WE ARE</a> 
+      <a du-smooth-scroll="why-finedu" offset="100" du-scrollspy ng-click="mobileMenu($event)">WHY FINEDU?</a> 
       <a du-smooth-scroll="b-school" offset="100" du-scrollspy>B-SCHOOL</a>
-      <a du-smooth-scroll="team" offset="100" du-scrollspy>TEAM</a>
-      <a du-smooth-scroll="product" offset="100" du-scrollspy>PRODUCT</a>
-      <a du-smooth-scroll="people-say" offset="100" du-scrollspy>PEOPLE SAY</a>
-      <a du-smooth-scroll="contact" offset="100" du-scrollspy>CONTACT</a>
+      <a du-smooth-scroll="team" offset="100" du-scrollspy ng-click="mobileMenu($event)">TEAM</a>
+      <a du-smooth-scroll="product" offset="100" du-scrollspy ng-click="mobileMenu($event)">PRODUCT</a>
+      <a du-smooth-scroll="people-say" offset="100" du-scrollspy ng-click="mobileMenu($event)">PEOPLE SAY</a>
+      <a du-smooth-scroll="contact" offset="100" du-scrollspy ng-click="mobileMenu($event)">CONTACT</a>
       <a href="javascript:void(0);" style="font-size:15px;" class="icon" ng-click="mobileMenu($event)">&#9776;</a> 
     </div>
   </div>
