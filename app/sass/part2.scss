@@ -1040,13 +1040,15 @@ md-dialog {
     display: block;
     width: 15%;
   }
-}
-.top-header{
+  .top-header{
   padding:0;
 }
 .fixed-header{
   padding: 0;
 }
+}
+
+
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {

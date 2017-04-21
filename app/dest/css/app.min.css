@@ -15720,13 +15720,11 @@ md-dialog {
   .topnav a.icon {
     float: right;
     display: block;
-    width: 15%; } }
-
-.top-header {
-  padding: 0; }
-
-.fixed-header {
-  padding: 0; }
+    width: 15%; }
+  .top-header {
+    padding: 0; }
+  .fixed-header {
+    padding: 0; } }
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
