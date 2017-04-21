@@ -4,24 +4,8 @@
 <div class="main">
   <button ng-click="topFunction($event)" id="myBtn" title="Go to top">Top</button>
   <div id="home" class="top-header">
-    <!-- <div class="contact-container">
-      <div id="FinEdu" class="tele-logo">
-        <img src="app/imgs/logo.png" /> </div>
-      <div class="nav">
-        <ul>
-          <li><a du-smooth-scroll="top" offset="100" du-scrollspy>HOME</a></li>
-          <li><a du-smooth-scroll="who-we-are" offset="100" du-scrollspy>WHO WE ARE</a></li>
-          <li><a du-smooth-scroll="why-finedu" offset="100" du-scrollspy>WHY FINEDU?</a></li>
-          <li><a du-smooth-scroll="b-school" offset="100" du-scrollspy>B-SCHOOL</a></li>
-          <li><a du-smooth-scroll="team" offset="100" du-scrollspy>TEAM</a></li>
-          <li><a du-smooth-scroll="product" offset="100" du-scrollspy>PRODUCT</a></li>
-          <li><a du-smooth-scroll="people-say" offset="100" du-scrollspy>PEOPLE SAY</a></li>
-          <li><a du-smooth-scroll="contact" offset="100" du-scrollspy>CONTACT</a></li>
-        </ul>
-      </div>
-    </div> -->
     <div class="topnav" id="myTopnav">
-      <a><span><img src="app/imgs/logo.png"></span></a> 
+      <a du-smooth-scroll="top" offset="100" du-scrollspy><span><img src="app/imgs/logo.png"></span></a> 
       <a du-smooth-scroll="top" offset="100" du-scrollspy>HOME</a> 
       <a du-smooth-scroll="who-we-are" offset="100" du-scrollspy>WHO WE ARE</a> 
       <a du-smooth-scroll="why-finedu" offset="100" du-scrollspy>WHY FINEDU?</a> 

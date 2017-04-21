@@ -15377,28 +15377,18 @@ table {
   -ms-flex-align: center;
   align-items: center;
   padding: 0% 8%; }
-  .top-header .nav ul {
-    margin-left: 60px; }
-    .top-header .nav ul li {
-      margin-top: 15px;
-      font-size: bold;
-      font-weight: bolder;
-      list-style: none;
-      display: inline;
-      padding: 0 0px 0 20px;
-      display: inline-block; }
-      .top-header .nav ul li a {
-        color: #000;
-        text-decoration: none;
-        font-size: 13px; }
-      .top-header .nav ul li a:hover {
-        text-decoration: underline;
-        cursor: pointer;
-        -webkit-transition: .5s;
-        transition: .5s;
-        color: #0b9060; }
-      .top-header .nav ul li a.active {
-        color: #0b9060; }
+  .top-header .topnav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px; }
+  .top-header .topnav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #0b9060; }
+  .top-header .topnav a.active {
+    color: #0b9060; }
 
 .fixed-header {
   /*height: 70px;*/
@@ -15415,29 +15405,20 @@ table {
   top: 0px;
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
-  width: 100%; }
-  .fixed-header .nav ul {
-    margin-left: 60px; }
-    .fixed-header .nav ul li {
-      margin-top: 15px;
-      font-size: bold;
-      font-weight: bolder;
-      list-style: none;
-      display: inline;
-      padding: 0 0px 0 20px;
-      display: inline-block; }
-      .fixed-header .nav ul li a {
-        color: #000;
-        text-decoration: none;
-        font-size: 13px; }
-      .fixed-header .nav ul li a:hover {
-        text-decoration: underline;
-        cursor: pointer;
-        -webkit-transition: .5s;
-        transition: .5s;
-        color: #0b9060; }
-      .fixed-header .nav ul li a.active {
-        color: #0b9060; }
+  width: 100%;
+  padding: 0% 8%; }
+  .fixed-header .topnav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px; }
+  .fixed-header .topnav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #0b9060; }
+  .fixed-header .topnav a.active {
+    color: #0b9060; }
 
 .contact-container {
   display: -webkit-box;
@@ -15740,6 +15721,12 @@ md-dialog {
     float: right;
     display: block;
     width: 15%; } }
+
+.top-header {
+  padding: 0; }
+
+.fixed-header {
+  padding: 0; }
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {

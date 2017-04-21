@@ -622,17 +622,7 @@ table {
   z-index: 1;
   align-items: center;
   padding: 0% 8%;
-  .nav {
-    ul {
-      margin-left: 60px;
-      li {
-        margin-top: 15px;
-        font-size: bold;
-        font-weight: bolder;
-        list-style: none;
-        display: inline;
-        padding: 0 0px 0 20px;
-        display: inline-block;
+  .topnav {
         a {
           color: #000;
           text-decoration: none;
@@ -647,8 +637,6 @@ table {
         a.active {
           color: #0b9060;
         }
-      }
-    }
   }
 }
 .fixed-header {
@@ -664,17 +652,8 @@ table {
   top: 0px;
   transition-duration: 1s;
   width: 100%;
-  .nav {
-    ul {
-      margin-left: 60px;
-      li {
-        margin-top: 15px;
-        font-size: bold;
-        font-weight: bolder;
-        list-style: none;
-        display: inline;
-        padding: 0 0px 0 20px;
-        display: inline-block;
+  padding: 0% 8%;
+  .topnav {
         a {
           color: #000;
           text-decoration: none;
@@ -689,8 +668,6 @@ table {
         a.active {
           color: #0b9060;
         }
-      }
-    }
   }
 }
 
@@ -1052,7 +1029,6 @@ md-dialog {
     height: 50px;
     cursor: pointer;
 }
-
 .topnav .icon {
   display: none;
 }
@@ -1065,7 +1041,12 @@ md-dialog {
     width: 15%;
   }
 }
-
+.top-header{
+  padding:0;
+}
+.fixed-header{
+  padding: 0;
+}
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
