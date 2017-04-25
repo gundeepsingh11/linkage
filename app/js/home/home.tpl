@@ -211,7 +211,7 @@
   <!-- {{homectrl.flkty.selectedIndex}} -->
 </div>
 <div class="section7" id="contact">
-  <form class="form-main" name="userForm" method="post" action="home">
+  <form class="form-main" name="userForm" method="post" action="home" autocomplete=off>
     <h2>GIVE US A GOOD NEWS</h2>
     <div class="group">
       <input type="text" id="name" ng-model="user.name" name="name" class="input-field" required>
