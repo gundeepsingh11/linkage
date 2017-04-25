@@ -1,4 +1,4 @@
-angular.module( 'home', [ 'ngMaterial', 'contact' ] ).config( function( $stateProvider ) {
+angular.module( 'home', [ 'ngMaterial' ] ).config( function( $stateProvider ) {
   $stateProvider.state( 'home', {
     url: '/home',
     templateUrl: 'app/js/home/home.tpl',

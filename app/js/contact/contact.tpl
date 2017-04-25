@@ -1,3 +1,0 @@
-<body onload="mailSent()">
-	
-</body>
