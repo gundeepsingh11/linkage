@@ -15715,7 +15715,12 @@ md-dialog {
   display: none; }
 
 .topnav .icon:focus {
-  border: 1px solid white; }
+  outline: 0;
+  text-decoration: none !important; }
+
+.topnav .icon:active {
+  outline: 0;
+  text-decoration: none !important; }
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
