@@ -28,8 +28,8 @@ angular.module( 'home', [ 'ngMaterial' ] ).config( function( $stateProvider ) {
     cellAlign: 'left',
     contain: true,
     autoPlay: 2000,
-    pauseAutoPlayOnHover: false,
-    wrapAround: true
+    pauseAutoPlayOnHover: false
+    // wrapAround: true
   } );
   var nav = document.querySelector( '.gallery-nav' );
   // get array of items with li tag

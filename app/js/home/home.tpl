@@ -15,7 +15,7 @@
     </div>
   </div>
   <div class="mainSlider" id="top">
-    <div class="gallery1 js-flickity home-banner" data-flickity='{"autoPlay":true, "wrapAround": true}'>
+    <div class="gallery1 js-flickity home-banner" data-flickity='{"autoPlay":true}'>
       <div class="gallery-cell1">
         <img src="app/imgs/_banner.jpg" /> </div>
       <div class="gallery-cell1">

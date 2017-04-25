@@ -658,13 +658,10 @@ md-dialog {
   /* big buttons, no circle */ }
   .mainSlider .gallery1 {
     background: #EEE; }
-    .mainSlider .gallery1 .flickity-viewport {
-      padding-bottom: 41%; }
   .mainSlider .gallery-cell1 {
     width: 100%;
-    /*height: 600px;*/ }
+    height: 540px; }
     .mainSlider .gallery-cell1 img {
-      /*height: 100%;*/
       width: 100%; }
   .mainSlider .flickity-page-dots {
     display: none; }
@@ -713,8 +710,6 @@ md-dialog {
 @media only screen and (max-width: 950px) {
   .section6 {
     display: none; }
-  .mainSlider .gallery1 .flickity-viewport {
-    padding-bottom: 39%; }
   .flex-container1 {
     padding: 0; }
     .flex-container1 .bImg {
