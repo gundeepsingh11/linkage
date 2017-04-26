@@ -16,7 +16,7 @@ angular.module( 'home', [ 'ngMaterial' ] ).config( function( $stateProvider ) {
   $scope.customFullscreen = false;
   $scope.showAlert = function( ev ) {
     $mdDialog.show( {
-      templateUrl: 'app/js/utils/tmpl.tpl',
+      templateUrl: 'app/js/home/tmpl.tpl',
       parent: angular.element( document.body ),
       targetEvent: ev,
       clickOutsideToClose: true,
