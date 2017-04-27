@@ -136,7 +136,7 @@
       <li class="header">Others</li>
       <li>Public Speaking</li>
       <li>Tranning & Development</li>
-      <li ng-click="showAlert($event)" style="color: #0b9060">Coaching</li>
+      <li ng-click="showAlert($event)" style="color: #0b9060; outline: none; cursor: pointer;">Coaching</li>
     </ul>
   </div>
 </div>
