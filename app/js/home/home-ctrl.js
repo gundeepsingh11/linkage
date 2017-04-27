@@ -97,13 +97,5 @@ angular.module( 'home', [ 'ngMaterial' ] ).config( function( $stateProvider ) {
       x.className = "topnav";
     }
   }
-  $scope.submitForm = function() {
-   // Get the first form with the name
-   // Hopefully there is only one, but there are more, select the correct index
-   var frm = document.getElementsByName('userForm')[0];
-   frm.submit(); // Submit
-   frm.reset();  // Reset
-   return false; // Prevent page refresh
-};
 
 } );

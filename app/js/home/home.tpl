@@ -239,7 +239,7 @@
     </div>
     <div class="bottomDiv">
       <div>
-        <button class="field-button" type="submit" ng-click="submitForm()">Submit</button>
+        <button class="field-button" type="submit">Submit</button>
       </div>
     </div>
   </form>
