@@ -35,7 +35,7 @@
       <li class="flex-item1">
         <div class="content">
           <h5 class="head">About Linkage</h5>
-          <p class="para1">The mission of Ackotech (System Integrators) desing mantain is to help our clients with Information Technology services of outstanding quality, competence and objectivity, delivering the best solutions to fully satisfy client objectives in information technology,business processes and management. In all we do, builds, maintains, and secures computer networks and it’s what makes us the best in our industry. </p>
+          <p class="para1">The mission of Linkage (System Integrators) desing mantain is to help our clients with Information Technology services of outstanding quality, competence and objectivity, delivering the best solutions to fully satisfy client objectives in information technology,business processes and management. In all we do, builds, maintains, and secures computer networks and it’s what makes us the best in our industry. </p>
         </div>
       </li>
     </ul>
@@ -45,7 +45,7 @@
       <li class="flex-item2">
         <div class="content2">
           <h5 class="head2"> Our Vision</h5>
-          <p class="para2">Ackotech vision is to be a world-class IT Consulting company that helps our clients increase productivity and profitability through the use of the best technology available.We developing the are not even avilable in the gernal market.</p>
+          <p class="para2">Linkage vision is to be a world-class IT Consulting company that helps our clients increase productivity and profitability through the use of the best technology available.We developing the are not even avilable in the gernal market.</p>
             <br>
             <br><h5 class="head2"><b>Our Team</b></h5>
             <p class="para2"> Ensuring they are on the cutting edge of industry parctices, and working within the culture that promotes excelent and job satification.</p>
@@ -69,7 +69,7 @@
       <li class="flex-item1">
         <div class="content">
           <h5 class="head">Objective and Integrity</h5>
-          <p class="para1">Ackotech and its members exercise the highest degree of independent thinking in selecting the products, services and solutions we recommend to clients.
+          <p class="para1">Linkage and its members exercise the highest degree of independent thinking in selecting the products, services and solutions we recommend to clients.
             <br>
             <br> The key of our success include a commitments to operational disciplie and excellence and attractig the best people in the business, alongside a healthy culture that promotes creative inovation, skillfull execution and retention of talent.
             <br><br>
@@ -232,10 +232,10 @@
       </div>
     </div>
   </form>
-  <div class="partner">
+  <!-- <div class="partner">
     <h2>OUR CLIENTS</h2>
     <img src="app/imgs/patners.jpg"> </div>
-</div>
+</div> -->
 <div class="clear"></div>
 <div class="footer">
   <div class="footerContent">

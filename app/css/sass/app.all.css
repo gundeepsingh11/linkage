@@ -283,17 +283,23 @@ table {
   position: relative;
   background-color: #FAFAFA;
   float: left;
-  padding-left: 15%;
-  width: 40%;
+  /*padding-left: 15%;*/
+  width: 100%;
   padding-bottom: 100px; }
   .form-main h2 {
-    margin-bottom: 10%;
-    font-size: 20px; }
+    margin-bottom: 10% !important;
+    font-size: 20px;
+    text-align: center; }
+
+.bottomDiv {
+  display: flex;
+  justify-content: center; }
 
 .group {
   position: relative;
-  margin-bottom: 35px;
-  width: 80%; }
+  margin-bottom: 35px !important;
+  width: 80%;
+  margin: 0 auto; }
 
 .input-field {
   font-size: 16px;
@@ -721,7 +727,7 @@ md-dialog {
   .mainSlider .gallery1 {
     background: #EEE; }
     .mainSlider .gallery1 .flickity-viewport {
-      padding-bottom: 41%; }
+      /*padding-bottom: 41%;*/ }
   .mainSlider .gallery-cell1 {
     width: 100%;
     /*height: 600px;*/ }
@@ -774,7 +780,7 @@ md-dialog {
 
 @media only screen and (max-width: 950px) {
   .mainSlider .gallery1 .flickity-viewport {
-    padding-bottom: 39%; }
+    /*padding-bottom: 39%;*/ }
   .flex-container1 {
     padding: 0; }
     .flex-container1 .bImg {
