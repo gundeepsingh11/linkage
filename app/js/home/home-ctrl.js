@@ -6,17 +6,57 @@ angular.module( 'home', [ 'ngMaterial' ] ).config( function( $stateProvider ) {
   } );
 } ).controller( 'HomeCtrl', function( $scope, $window, $mdDialog, $http ) {
   $scope.user = {};
-  var elem = document.querySelector( '.gallery' );
-  var flkty = new Flickity( elem, {
-    // options
-    cellAlign: 'left',
-    contain: true
-  } );
+  
   $scope.status = '  ';
   $scope.customFullscreen = false;
   $scope.showAlert = function( ev ) {
     $mdDialog.show( {
       templateUrl: 'app/js/home/tmpl.tpl',
+      parent: angular.element( document.body ),
+      targetEvent: ev,
+      clickOutsideToClose: true,
+      fullscreen: $scope.customFullscreen // Only for -xs, -sm breakpoints.
+    } );
+  };
+  $scope.showAlert2 = function( ev ) {
+    $mdDialog.show( {
+      templateUrl: 'app/js/home/serverSupport.tpl',
+      parent: angular.element( document.body ),
+      targetEvent: ev,
+      clickOutsideToClose: true,
+      fullscreen: $scope.customFullscreen // Only for -xs, -sm breakpoints.
+    } );
+  };
+  $scope.showAlert3 = function( ev ) {
+    $mdDialog.show( {
+      templateUrl: 'app/js/home/RemoteManag.tpl',
+      parent: angular.element( document.body ),
+      targetEvent: ev,
+      clickOutsideToClose: true,
+      fullscreen: $scope.customFullscreen // Only for -xs, -sm breakpoints.
+    } );
+  };
+  $scope.showAlert4 = function( ev ) {
+    $mdDialog.show( {
+      templateUrl: 'app/js/home/wifiSolution.tpl',
+      parent: angular.element( document.body ),
+      targetEvent: ev,
+      clickOutsideToClose: true,
+      fullscreen: $scope.customFullscreen // Only for -xs, -sm breakpoints.
+    } );
+  };
+  $scope.showAlert5 = function( ev ) {
+    $mdDialog.show( {
+      templateUrl: 'app/js/home/dataBackup.tpl',
+      parent: angular.element( document.body ),
+      targetEvent: ev,
+      clickOutsideToClose: true,
+      fullscreen: $scope.customFullscreen // Only for -xs, -sm breakpoints.
+    } );
+  };
+  $scope.showAlert6 = function( ev ) {
+    $mdDialog.show( {
+      templateUrl: 'app/js/home/cloudsolu.tpl',
       parent: angular.element( document.body ),
       targetEvent: ev,
       clickOutsideToClose: true,
@@ -31,38 +71,12 @@ angular.module( 'home', [ 'ngMaterial' ] ).config( function( $stateProvider ) {
     pauseAutoPlayOnHover: false
     // wrapAround: true
   } );
-  var nav = document.querySelector( '.gallery-nav' );
-  // get array of items with li tag
-  var items = Array.prototype.slice.call( nav.children );
   $scope.homectrl = {
-    selectedLi: 'li3',
-    index: 0,
-    slides: null,
-    flkty: flkty
   };
   console.log( "homectrl" );
-  $scope.homectrl.slides = items;
-  $scope.getClick = getClick;
   $scope.topFunction = topFunction;
   $scope.mobileMenu = mobileMenu;
-  // $scope.hideMobileMenu = hideMobileMenu;
-
-  // function hideMobileMenu( hide ) {
-  //    document.getElementById( "myTopnav" ).style.display = "none";
-  //  }
-  function getClick( slide ) {
-    // console.log(flkty.selectedIndex);
-    var liElement = document.getElementById( slide );
-    var index = items.indexOf( liElement );
-    $scope.homectrl.selectedLi = slide;
-    flkty.select( index );
-  }
-  // function testimonialSelected( selected ) {
-  //   console.log( 'img', selected );
-  //   var imgSlected = document.getElementById( selected );
-  //   imgSlected.className += "selectedImg";
-  //   // document.getElementById( selected ).style.width = "60";
-  // }
+  
   window.onscroll = function() {
     myFunction();
     scrollFunction();
@@ -97,5 +111,4 @@ angular.module( 'home', [ 'ngMaterial' ] ).config( function( $stateProvider ) {
       x.className = "topnav";
     }
   }
-
 } );

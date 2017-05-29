@@ -1,80 +1,30 @@
-<style>
-table,
-th,
-td {
-  border-top: 1px solid grey;
-  border-collapse: collapse;
-  padding: 5px;
-  text-align: left;
-}
-table{
-  padding-bottom: 20px;
-}
-th{
-  font-size: 16px;
-  font-weight: bolder;
-}
-td{
-  padding-right: 20px;
-  font-size: 14px;
-}
-.tableHeading{
-  text-align: center;
-  padding: 25px 0 40px 0;
-  font-size: 20px;
-  font-weight: bolder;
-}
-/*table tr:nth-child(odd) {
--  background-color: #f1f1f1;
--}
--
--table tr:nth-child(even) {
--  background-color: #ffffff;
--}*/
-</style>
-<div class="tableHeading">
-    <h2>List of Few Courses for which Training is provided</h2>
-</div>
-  <table>
-  <tr>
-    <th>Sr. No</th>
-    <th>Course No.</th>
-    <th>Course Name</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>NISM Series-I</td>
-    <td>Currency Derivatives Certification Examination(English)</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>NISM-Series-V-A</td>
-    <td>Mutual Fund Distributors Certification Examination (English)</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>NISM-Series-VII</td>
-    <td>Securities Operations and Risk Management Certification Examination (English)</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>NISM-Series-VIII</td>
-    <td>Equity Derivatives Certification Examination (English)</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>NISM-Series-VI</td>
-    <td>Depository Operations Certification Examination (English)</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>NISM-Series-XII</td>
-    <td>Securities Markets Foundation Certification Examination (English)</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td></td>
-    <td>IRDA Examination</td>
-  </tr>
-</table>
 
+
+ <style type="text/css">
+ *{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+ }
+   .temp-img img{
+    width: 100%;
+    height: 5x0%
+   }
+   .temp-main-head{
+        text-align: center;
+    font-size: 35px;
+    line-height: 2;
+    letter-spacing: 15px;
+    color: #ff6000;
+   }
+   .temp-p{
+        padding: 4% 0px;
+   }
+ </style>
+ <h2 class="temp-main-head">Manage IT Services</h2>
+ <div class="temp-img"><img src="app/imgs/managed_services_banner.jpg"></div>
+ <p class="temp-p">The central aim of IT management is to generate value through the use of technology. To achieve this, business strategies and technology must be aligned.<br><br>
+
+IT Management is different from management information systems. The latter refers to management methods tied to the automation or support of human decision making.[2] IT Management refers to IT related management activities in organizations. MIS is focused mainly on the business aspect, with strong input into the technology phase of the business/organization.<br><br>
+
+A primary focus of IT management is the value creation made possible by technology. This requires the alignment of technology and business strategies. While the value creation for an organization involves a network of relationships between internal and external environments, technology plays an important role in improving the overall value chain of an organization. However, this increase requires business and technology management to work as a creative, synergistic, and collaborative team instead of a purely mechanistic span of control.</p>

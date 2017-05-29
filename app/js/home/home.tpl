@@ -2,14 +2,13 @@
   <button ng-click="topFunction($event)" id="myBtn" title="Go to top">Top</button>
   <div id="home" class="top-header">
     <div class="topnav" id="myTopnav">
-      <a du-smooth-scroll="top" offset="100" du-scrollspy><span><img src="app/imgs/logo.png"></span></a> 
+      <a du-smooth-scroll="top" offset="100" du-scrollspy><span><img src="app/imgs/logo.png" width="100" height="100"></span></a> 
       <a du-smooth-scroll="top" offset="100" du-scrollspy ng-click="mobileMenu($event)">HOME</a> 
-      <a du-smooth-scroll="who-we-are" offset="100" du-scrollspy ng-click="mobileMenu($event)">WHO WE ARE</a>
-      <a du-smooth-scroll="why-finedu" offset="100" du-scrollspy ng-click="mobileMenu($event)">WHY FINEDU?</a> 
-      <a du-smooth-scroll="b-school" offset="100" du-scrollspy ng-click="mobileMenu($event)">B-SCHOOL</a>
-      <a du-smooth-scroll="team" offset="100" du-scrollspy ng-click="mobileMenu($event)">TEAM</a>
+      <a du-smooth-scroll="who-we-are" offset="100" du-scrollspy ng-click="mobileMenu($event)">ABOUT</a>
+      <a du-smooth-scroll="why-finedu" offset="100" du-scrollspy ng-click="mobileMenu($event)">OUR VISION</a> 
+      <a du-smooth-scroll="b-school" offset="100" du-scrollspy ng-click="mobileMenu($event)">OBJECTIVE</a>
       <a du-smooth-scroll="product" offset="100" du-scrollspy ng-click="mobileMenu($event)">PRODUCT</a>
-      <a du-smooth-scroll="people-say" offset="100" du-scrollspy ng-click="mobileMenu($event)">PEOPLE SAY</a>
+      <a du-smooth-scroll="people-say" offset="100" du-scrollspy ng-click="mobileMenu($event)">SERVICES</a>
       <a du-smooth-scroll="contact" offset="100" du-scrollspy ng-click="mobileMenu($event)">CONTACT</a>
       <a href="javascript:void(0);" style="font-size:15px;" class="icon" ng-click="mobileMenu($event)">&#9776;</a> 
     </div>
@@ -31,12 +30,12 @@
     <ul class="flex-container1">
       <li class="flex-item1">
         <div class="ind-img">
-          <img src="app/imgs/icon.png"> </div>
+          <img src="app/imgs/149533016629983.png"> </div>
       </li>
       <li class="flex-item1">
         <div class="content">
-          <h5 class="head">Who We Are</h5>
-          <p class="para1">FinEdu Consultancy is a team of highly enthusiastic and efficient professionals, headed by Mr. Vipul Kaushikk who is dedicated to spread Financial Awareness across country. He believes that if our county has to grow Rich, the youth must understand the importance of money and its use. We understand the financial and business needs and by virtue of around 40 yrs of our man experience, we are able to form a special headhunting team working 24x7 only with a clear motive of motivating people financially. </p>
+          <h5 class="head">About Linkage</h5>
+          <p class="para1">The mission of Ackotech (System Integrators) desing mantain is to help our clients with Information Technology services of outstanding quality, competence and objectivity, delivering the best solutions to fully satisfy client objectives in information technology,business processes and management. In all we do, builds, maintains, and secures computer networks and it’s what makes us the best in our industry. </p>
         </div>
       </li>
     </ul>
@@ -45,12 +44,14 @@
     <ul class="flex-container2">
       <li class="flex-item2">
         <div class="content2">
-          <h5 class="head2"> Why FinEdu?</h5>
-          <p class="para2">In the times of growing social media and other awareness platforms, we still think that there is a huge need of financial awareness. Middle class in India is increasing and so is the gap between Rich and Poor increasing. People often face tough time only because they fail to understand the difference between Savings and Investments. Despite of everyone becoming Smart phone user, the knowledge base is still not improving.
+          <h5 class="head2"> Our Vision</h5>
+          <p class="para2">Ackotech vision is to be a world-class IT Consulting company that helps our clients increase productivity and profitability through the use of the best technology available.We developing the are not even avilable in the gernal market.</p>
             <br>
-            <br> We feel that we are different because we have understood this problem very closely and we also understand that, if our country has to grow, our middle class must become Rich & Wealthy.
+            <br><h5 class="head2"><b>Our Team</b></h5>
+            <p class="para2"> Ensuring they are on the cutting edge of industry parctices, and working within the culture that promotes excelent and job satification.</p>
             <br>
-            <br> To shorten this gap of middle class and Richer Class, we are ready to reach each and every earning member of our nation. Our intention is not to merely sell our products, rather, we wish to spread our knowledge to every part of country so that, we become financially aware and we are able to contribute to the growth of our country by making our people financially educated and of course Rich.</p>
+            <br><h5 class="head2"><b>Our Operation</b></h5>
+             <p class="para2">Empling proactive, matrix-driven methods and practices desinged to server with transparance and integrety.</p>
         </div>
       </li>
       <li class="flex-item">
@@ -67,82 +68,70 @@
       </li>
       <li class="flex-item1">
         <div class="content">
-          <h5 class="head">FinEdu at B-Schools</h5>
-          <p class="para1">FinEdu consultancy is also very active in training and development of Students across various Schools and colleges. At FINEDU Consultancy, we focus on Training the students as per the standards required by the Industry/Corporate. We make sure that, the students along with their regular courses are given a real world corporate environment in the college campus only so that they become habitual of what is required at the corporate level. They are passed through difficult training methods and strategies so that the real world requirements of corporate are touched during their studies and by the time the students are out of the campus, they are almost ready to face the cut throat competition of the tough corporate world.
+          <h5 class="head">Objective and Integrity</h5>
+          <p class="para1">Ackotech and its members exercise the highest degree of independent thinking in selecting the products, services and solutions we recommend to clients.
             <br>
-            <br> In addition to our regular placement and training activities, we have designed few short term training courses, which will help the students to break the barrier of getting into the Financial Companies and this will make them Corporate Ready. On Passing these Certification programs, Students have better chances of getting job offers from BANKS, FINANCIAL & BROKING FIRMS, INSURANCE COMPANIES, ASSET MANAGEMENT COMPANIES (AMC). </p>
-          <div class="dialog-demo-content" layout="row" layout-wrap layout-margin layout-align="start">
-            <md-button class="md-primary md-raised courseButton" ng-click="showAlert($event)"> Training Courses </md-button>
-          </div>
+            <br> The key of our success include a commitments to operational disciplie and excellence and attractig the best people in the business, alongside a healthy culture that promotes creative inovation, skillfull execution and retention of talent.
+            <br><br>
+            We have built a company that has the operational maturity, expertise, and resources to truely secure your network and make sure it operates at its best. And we deliver our services with integrity, accountablity, and an authentic desire to get to the heart of what your small to mid-size business needs. </p>
         </div>
       </li>
     </ul>
   </div>
 </div>
-<div class="section4" id="team">
-  <div class="backImg">
-    <h2>MEET OUR AMAZING TEAM</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et urna non mi ultricies maximus.</p>
-    <hr>
-    <div class="cardContainer">
-      <div class="card">
-        <img src="app/imgs/img_avatar.png" alt="Avatar">
-        <div class="container">
-          <h4><b>Vipul Kaushik</b></h4>
-          <p>Investment Consultant & Speaker</p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="app/imgs/img_avatar.png" alt="Avatar">
-        <div class="container">
-          <h4>Vineeta Sharma
-            <span> (Advocate)</span>
-          </h4>
-          <p>Tax Consultancy</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 <div class="section5" id="product">
   <!-- <div class="wordConatainer">
     <img src="app/imgs/icon2.png" width="100%">
   </div> -->
-  <div class="columns">
-    <ul class="price">
-      <li class="header">Investment Consultancy</li>
-      <li>Mutual Funds
-        <br>
-        <br>
-        <span>Life Insurance | General Insurance</span>
-      </li>
-      <li>Insurance</li>
-      <li>PMS (Portfolio Managemnt Services)</li>
-    </ul>
-  </div>
-  <div class="columns">
-    <ul class="price">
-      <li class="header" style="background-color:#0b9060">Tax Consultancy</li>
-      <li>Income Tax</li>
-      <li>Sales Tax</li>
-      <li>Service Tax</li>
-      <li>Registration</li>
-      <li>GST</li>
-      <li>Import/Export License</li>
-    </ul>
-  </div>
-  <div class="columns">
-    <ul class="price">
-      <li class="header">Others</li>
-      <li>Public Speaking</li>
-      <li>Tranning & Development</li>
-      <li ng-click="showAlert($event)" style="color: #0b9060; outline: none; cursor: pointer;">Coaching</li>
-    </ul>
-  </div>
+  <h3>Products</h3>
+  <div class="row">
+                    <div class="column">
+                      <img src="app/imgs/server.png">
+                      <h4>System</h4>
+                    </div>
+                    <div class="column">
+                      <img src="app/imgs/cloud-computing.png">
+                      <h4>Networking</h4>
+                    </div>
+                    <div class="column">
+                      <img src="app/imgs/software.png">
+                      <h4>Software</h4>
+                    </div>
+                    <div class="column">
+                      <img src="app/imgs/database.png">
+                      <h4>Security</h4>
+                    </div>
+                </div>
 </div>
 <div class="clear"></div>
 <div class="section6" id="people-say">
-  <div class="gallery-container">
+<h2>Services</h2>
+  <div class="row">
+  <div class="column">
+  <div class="dialog-demo-content" layout="row" layout-wrap layout-margin layout-align="start">
+            <md-button class="md-primary md-raised courseButton box foo" ng-click="showAlert($event)"> Managed IT Services </md-button>
+          </div></div>
+  <div class="column"><div class="dialog-demo-content" layout="row" layout-wrap layout-margin layout-align="start">
+            <md-button class="md-primary md-raised courseButton box foo" ng-click="showAlert2($event)"> Server & Destop Support </md-button>
+          </div></div>
+  <div class="column"><div class="dialog-demo-content" layout="row" layout-wrap layout-margin layout-align="start">
+            <md-button class="md-primary md-raised courseButton box foo" ng-click="showAlert3($event)"> Remort IT Support & Management </md-button>
+          </div></div>
+  </div>
+  <div class="row">
+  <div class="column"><div class="dialog-demo-content" layout="row" layout-wrap layout-margin layout-align="start">
+            <md-button class="md-primary md-raised courseButton box foo" ng-click="showAlert4($event)"> WIFI & Point to Point Solution </md-button>
+          </div></div>
+  <div class="column"><div class="dialog-demo-content" layout="row" layout-wrap layout-margin layout-align="start">
+            <md-button class="md-primary md-raised courseButton box foo" ng-click="showAlert5($event)"> Data Backup & Disaster Recovery </md-button>
+          </div></div>
+  <div class="column"><div class="dialog-demo-content" layout="row" layout-wrap layout-margin layout-align="start">
+            <md-button class="md-primary md-raised courseButton box foo" ng-click="showAlert6($event)"> Cloud Computing Secure Solution </md-button>
+          </div></div>
+
+</div>
+  <!-- <div class="gallery-container">
     <div class="gallery js-flickity testimonial" data-flickity-options='{ "contain": true }'>
       <div class="gallery-cell"> <i class="fa fa-quote-left" aria-hidden="true"></i>
         <div class="gallery-cell-txt"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -207,7 +196,7 @@
       <a ng-click="getClick('li5')">
         <img src="app/imgs/person-icon.png" ng-class="{selectedImg : homectrl.selectedLi ==='li5'}" id="img5" width="40px" height="40px" class="img"> </a>
     </li>
-  </ol>
+  </ol> -->
   <!-- {{homectrl.flkty.selectedIndex}} -->
 </div>
 <div class="section7" id="contact">
@@ -239,16 +228,12 @@
     </div>
     <div class="bottomDiv">
       <div>
-        <button class="field-button" type="submit">Submit</button>
+        <button class="field-button" type="submit" ng-click="submitForm()">Submit</button>
       </div>
     </div>
   </form>
   <div class="partner">
-    <h2>OUR PARTNERS</h2>
-    <p>An effective Financial Planning process culminates into
-      <br> investing with the right partners. FinEdu has tied up with
-      <br> the most reputed Mutual fund AMCs in the country to
-      <br> provide the best Financial Planning solution to its clients</p>
+    <h2>OUR CLIENTS</h2>
     <img src="app/imgs/patners.jpg"> </div>
 </div>
 <div class="clear"></div>
@@ -257,10 +242,15 @@
     <div class="footer1">
       <ul>
         <li>
-          <img src="app/imgs/white_logo.png"> </li>
-        <li>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et urna non mi ultricies maximus. Cras quis massa ac mauris tincidunt vulputate quis a orci.</p>
-        </li>
+          <h2>LinkAge IT Service Co.</h2> </li>
+          <div class="footerLinks"> 
+        <li><a du-smooth-scroll="who-we-are" offset="100" du-scrollspy ng-click="mobileMenu($event)">ABOUT</a></li><li>
+        <a du-smooth-scroll="why-finedu" offset="100" du-scrollspy ng-click="mobileMenu($event)">OUR VISION</a> </li><li>
+        <a du-smooth-scroll="b-school" offset="100" du-scrollspy ng-click="mobileMenu($event)">OBJECTIVE</a></li><li>
+        <a du-smooth-scroll="product" offset="100" du-scrollspy ng-click="mobileMenu($event)">PRODUCT</a></li><li>
+        <a du-smooth-scroll="people-say" offset="100" du-scrollspy ng-click="mobileMenu($event)">SERVICES</a></li><li>
+        <a du-smooth-scroll="contact" offset="100" du-scrollspy ng-click="mobileMenu($event)">CONTACT</a></li>
+        </div>
       </ul>
     </div>
     <div class="footer2">
@@ -269,11 +259,12 @@
           <h2>OUR ADDRESS</h2>
         </li>
         <li class="topPad">
-          <img src="app/imgs/location_icon.png"> 2501/1,2nd Floor, Vidyanand Market,
-          <p>Teliwara, Delhi- 110006</p>
+          <img src="app/imgs/location_icon.png"> # Inside Share'e Punjab Complex,
+          <p>Opp Ind Est, LinkRoad Dholewal Ludhiana-141003 Punjab-INDIA</p>
         </li>
         <li class="topPad">
           <img src="app/imgs/contact_icon.png">+91-98 1173 5353 | 99 7124 5353</li>
+          <li><img src="app/imgs/mail.png" width="20" height="20">info@linkagetech.com</li>
       </ul>
     </div>
     <div class="footer3">
@@ -302,7 +293,7 @@
           </div>
         </li>
         <li>
-          <h3>Copyright © 2017 - FinEdu Consultancy</h3>
+          <h3 class="orange">Copyright © 2017 - FinEdu Consultancy</h3>
         </li>
       </ul>
     </div>
@@ -312,7 +303,7 @@
   <div class="mobileFooterContainer">
     <ul>
       <li>
-        <img src="app/imgs/white_logo.png"> </li>
+        <h2>Linkage IT Service Co.</h2> </li>
     </ul>
     <ul>
       <li>
