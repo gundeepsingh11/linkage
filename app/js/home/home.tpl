@@ -2,7 +2,7 @@
   <button ng-click="topFunction($event)" id="myBtn" title="Go to top">Top</button>
   <div id="home" class="top-header">
     <div class="topnav" id="myTopnav">
-      <a du-smooth-scroll="top" offset="100" du-scrollspy><span><img src="app/imgs/logo.png" width="100" height="100"></span></a> 
+      <a du-smooth-scroll="top" offset="100" class="pad0" du-scrollspy><span><img src="app/imgs/logo.png" width="100" height="100"></span></a> 
       <a du-smooth-scroll="top" offset="100" du-scrollspy ng-click="mobileMenu($event)">HOME</a> 
       <a du-smooth-scroll="who-we-are" offset="100" du-scrollspy ng-click="mobileMenu($event)">ABOUT</a>
       <a du-smooth-scroll="why-finedu" offset="100" du-scrollspy ng-click="mobileMenu($event)">OUR VISION</a> 

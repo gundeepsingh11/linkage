@@ -84,6 +84,9 @@ table {
       .section4 .backImg .cardContainer .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
 
+.pad0 {
+  padding: 0 !important; }
+
 .section5 {
   padding: 6% 0%;
   opacity: 0.7;
@@ -557,7 +560,7 @@ table {
     color: #ff6000; }
   .top-header .topnav a.active {
     color: #ff6000;
-    opacity: 0.7; }
+    /*opacity: 0.7;*/ }
 
 .fixed-header {
   /*height: 70px;*/

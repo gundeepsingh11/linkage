@@ -105,6 +105,9 @@ table {
   }
 }
 
+.pad0{
+  padding: 0 !important;
+}
 .section5 {
   
   padding: 6% 0%;
@@ -712,7 +715,7 @@ h2{
         }
         a.active {
           color: #ff6000;
-          opacity: 0.7;
+          /*opacity: 0.7;*/
         }
   }
 }
