@@ -15500,7 +15500,8 @@ md-dialog {
   .mainSlider .gallery1 {
     background: #EEE; }
     .mainSlider .gallery1 .flickity-viewport {
-      /*padding-bottom: 41%;*/ }
+      /* padding-bottom: 41%;*/
+      height: 500px; }
   .mainSlider .gallery-cell1 {
     width: 100%;
     /*height: 600px;*/ }
@@ -15553,7 +15554,8 @@ md-dialog {
 
 @media only screen and (max-width: 950px) {
   .mainSlider .gallery1 .flickity-viewport {
-    /*padding-bottom: 39%;*/ }
+    /*padding-bottom: 39%;*/
+    height: 150px !important; }
   .flex-container1 {
     padding: 0; }
     .flex-container1 .bImg {

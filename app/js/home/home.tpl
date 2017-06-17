@@ -18,9 +18,13 @@
       <div class="gallery-cell1">
         <img src="app/imgs/_banner.jpg" /> </div>
       <div class="gallery-cell1">
-        <img src="app/imgs/_banner.jpg" class="bnr-img2" /> </div>
+        <img src="app/imgs/_banner2.png" class="bnr-img2" /> </div>
       <div class="gallery-cell1">
-        <img src="app/imgs/_banner.jpg" /> </div>
+        <img src="app/imgs/_banner3.gif" /> </div>
+      <div class="gallery-cell1">
+        <img src="app/imgs/_banner4.png" class="bnr-img2" /> </div>
+      <div class="gallery-cell1">
+        <img src="app/imgs/_banner5.jpg" /> </div>
     </div>
   </div>
   <!-- 
