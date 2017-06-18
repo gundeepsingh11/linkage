@@ -297,7 +297,7 @@
           </div>
         </li>
         <li>
-          <h3 class="orange">Copyright © 2017 - FinEdu Consultancy</h3>
+          <h3 class="orange">Copyright © 2017 - Linkage IT Service Co.</h3>
         </li>
       </ul>
     </div>
@@ -314,8 +314,8 @@
         <h2>OUR ADDRESS</h2>
       </li>
       <li class="topPad">
-        <img src="app/imgs/location_icon.png"> 2501/1,2nd Floor, Vidyanand Market,
-        <p>Teliwara, Delhi- 110006</p>
+        <img src="app/imgs/location_icon.png"> # Inside Share'e Punjab Complex,
+          <p>Opp Ind Est, LinkRoad Dholewal Ludhiana-141003 Punjab-INDIA</p>
       </li>
       <li class="topPad">
         <img src="app/imgs/contact_icon.png">+91-98 1173 5353 | 99 7124 5353</li>
@@ -335,7 +335,7 @@
         </div>
       </li>
       <li>
-        <h3>Copyright © 2017 - FinEdu Consultancy</h3>
+        <h3>Copyright © 2017 - Linkage IT Service Co.</h3>
       </li>
     </ul>
   </div>
